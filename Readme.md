@@ -11,6 +11,8 @@
 
 ### 🚀 *Master Python Fundamentals & Object-Oriented Programming!*
 
+**Resource Link - https://canva.link/52roxdoar8i7rrl**
+
 **Welcome to your comprehensive Python learning journey!**
 Everything you need to become proficient in Python and master the core concepts of programming.
 
