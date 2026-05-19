@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 Python Fundamentals – NMIMS
+# 🐍 Advance Python – NMIMS
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
