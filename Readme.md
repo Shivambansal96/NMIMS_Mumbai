@@ -5,13 +5,13 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
 ![Students](https://img.shields.io/badge/NMIMS-Engineering%20Students-blue?style=for-the-badge)
-![Batch](https://img.shields.io/badge/Batch-CSDS%20%26%20CSBS-red?style=for-the-badge)
+![Batch](https://img.shields.io/badge/Batch-AI%20&%20Cyber%20&%20CSBS-red?style=for-the-badge)
 ![Progress](https://img.shields.io/badge/Day%203-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Ongoing-yellow?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals & Object-Oriented Programming!*
 
-**Resource Link - [👋 Click Me](https://canva.link/52roxdoar8i7rrl)**
+**Resource Link - <a href="https://canva.link/52roxdoar8i7rrl" target="_blank"  style="text-decoration: none">👋 Click Me</a>**
 
 **Welcome to your comprehensive Python learning journey!**
 Everything you need to become proficient in Python and master the core concepts of programming.
