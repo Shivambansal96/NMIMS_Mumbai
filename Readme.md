@@ -37,9 +37,12 @@ Day 1 - Loops, Lists, Tuples, Sets, Dictionary & Class Objects:
 ✅ Static Methods & Instance Methods
 
 Day 2 - Four Pillars of OOP:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+████████████████████████████████ 100%
 
-Coming Soon...
+✅ Encapsulation - Data Hiding & Access Control
+✅ Inheritance - Code Reusability & Type Hierarchy
+✅ Polymorphism - Method Overriding & Same Interface
+✅ Abstraction - Interface Definition & Implementation Hiding
 ```
 
 ---
@@ -507,7 +510,406 @@ s1.welcome()  # Welcome Student
 
 ---
 
-## ✅ DAY 1 - Problems Covered
+# 📅 DAY 2: Four Pillars of OOP
+
+## 📚 DAY 2 - Topics
+
+<details open>
+<summary><h3>📌 Encapsulation - Data Hiding</h3></summary>
+
+> **Encapsulation:** Bundling data (variables) and methods (functions) together within a class while hiding internal details from the outside world. Uses access modifiers like private (__), protected (_), and public (no prefix).
+
+### 1️⃣ **Private Attributes & Methods**
+
+#### 🔐 Basic Encapsulation
+
+```python
+class Account:
+    def __init__(self, accNum, accPass):
+        self.accNum = accNum  # Public attribute
+        self.__accPass = accPass  # Private attribute (name mangling)
+
+    def __showPass(self):  # Private method
+        return self.__accPass
+
+    def getPass(self):  # Public method to access private data
+        return self.__showPass()
+```
+
+#### 🛡️ Password Protection Example
+
+```python
+class Account:
+    def __init__(self, accNum, accPass):
+        self.accNum = accNum
+        self.__accPass = accPass
+
+    def __showPass(self):
+        return self.__accPass
+
+    def getPass(self):
+        return self.__showPass()
+
+    def changePassword(self):
+        while True:
+            oldPass = input("Enter your old Password: ")
+            if(oldPass == self.getPass()):
+                newPass = input("Enter your new Password: ")
+                self.__accPass = newPass
+                print("Password changed successfully!")
+                break
+            else:
+                print("Wrong Password !!!")
+
+a1 = Account(14380100115559, "Shivam@123")
+print(a1.accNum)  # 14380100115559
+# a1.__accPass  # AttributeError - Cannot access private attribute
+a1.changePassword()
+```
+
+#### 💳 Banking System Example
+
+```python
+class Account:
+    def __init__(self, name, bal):
+        self.name = name
+        self.balance = bal  # Could be made private for strict control
+
+    def debit(self):
+        amount = int(input("Enter the amount you want to debit = "))
+        if(amount <= self.balance):
+            self.balance -= amount
+            print(f"Rs {amount} debited")
+        else:
+            print("Insufficient Balance")
+
+    def credit(self, amount):
+        self.balance += amount
+        print(f"Rs {amount} credited")
+
+    def showBalance(self):
+        print(f"Balance = {self.balance}")
+
+a1 = Account("Shivam", 34000)
+a1.debit()         # Debit amount from account
+a1.credit(10000)   # Credit amount to account
+a1.showBalance()   # Display balance
+```
+
+### 🤔 **Key Questions on Encapsulation**
+
+- Why do we need private attributes?
+- What is the difference between private (__) and protected (_) attributes?
+- How does Python's name mangling work?
+- When should we use encapsulation?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🏛️ Inheritance - Code Reusability</h3></summary>
+
+> **Inheritance:** A mechanism where a child class inherits properties and methods from a parent class, enabling code reusability and establishing a hierarchy.
+
+### 2️⃣ **Types of Inheritance**
+
+#### 1. **Single Level Inheritance**
+
+```python
+class Shape:
+    color = "red"
+
+class Triangle(Shape):
+    sides = 3
+
+t1 = Triangle()
+print(t1.color)  # red (inherited from Shape)
+print(t1.sides)  # 3
+```
+
+#### 2. **Multi-Level Inheritance**
+
+```python
+class Shape:
+    color = "red"
+
+class Triangle(Shape):
+    sides = 3
+
+class Isosceles(Triangle):
+    degree = 180
+
+i1 = Isosceles()
+print(i1.color)   # red (from Shape, through Triangle)
+print(i1.sides)   # 3 (from Triangle)
+print(i1.degree)  # 180
+```
+
+#### 3. **Hierarchical Inheritance**
+
+```python
+class Shape:
+    color = "red"
+
+class Triangle(Shape):
+    sides = 3
+
+class Square(Shape):
+    sides = 4
+
+t1 = Triangle()
+print(t1.color)   # red
+
+s1 = Square()
+print(s1.color)   # red (both Triangle and Square inherit from Shape)
+```
+
+#### 4. **Hybrid Inheritance**
+
+```python
+class Shape:
+    color = "red"
+
+class Triangle(Shape):
+    sides = 3
+
+class Square(Shape):
+    sides = 4
+
+class Isosceles(Triangle):
+    degree = 180
+
+# Isosceles inherits from Triangle, which inherits from Shape
+# Square inherits directly from Shape
+i1 = Isosceles()
+print(i1.color)  # red
+
+s1 = Square()
+print(s1.color)  # red
+```
+
+#### 5. **Multiple Inheritance**
+
+```python
+class Mom:
+    gender = "Female"
+
+class Dad:
+    gender = "Male"
+
+class Me(Dad, Mom):  # Me inherits from both Dad and Mom
+    sex = "M"
+
+m1 = Me()
+print(m1.gender)  # Male (takes from Dad as he is listed first)
+```
+
+### 🔄 **Method Overriding & super()**
+
+```python
+class Employee:
+    def __init__(self, role, dept, salary):
+        self.role = role
+        self.department = dept
+        self.salary = salary
+
+    def showDetails(self):
+        print(f"Role = {self.role}")
+        print(f"Department = {self.department}")
+        print(f"Salary = {self.salary}")
+
+class Engineer(Employee):
+    def __init__(self, name, age, role, dept, salary):
+        self.name = name
+        self.age = age
+        super().__init__(role, dept, salary)  # Call parent constructor
+
+    def showDetails(self):  # Override parent method
+        print(f'Name = {self.name}')
+        print(f'Age = {self.age}')
+        super().showDetails()  # Call parent method
+
+eng1 = Engineer("Shivam", 99, "Technical Trainer", "IT", 9999)
+eng1.showDetails()
+
+# Output:
+# Name = Shivam
+# Age = 99
+# Role = Technical Trainer
+# Department = IT
+# Salary = 9999
+```
+
+### 🤔 **Key Questions on Inheritance**
+
+- What is the difference between method overriding and method overloading?
+- Why do we use the super() function?
+- What are the advantages and disadvantages of multiple inheritance?
+- What is the Diamond Problem?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🎭 Polymorphism - Many Forms</h3></summary>
+
+> **Polymorphism:** The ability of objects to take multiple forms. Methods in different classes can have the same name but different implementations.
+
+### 3️⃣ **Runtime Polymorphism**
+
+#### 🐾 Animal Sound Example
+
+```python
+class Dog:
+    def sound(self):
+        print("Dog Barks")
+
+class Cat:
+    def sound(self):
+        print("Cat Meows")
+
+class Lion:
+    def sound(self):
+        print("Lion roars")
+
+def makeSound(animal):
+    animal.sound()
+
+d1 = Dog()
+c1 = Cat()
+l1 = Lion()
+
+makeSound(d1)  # Dog Barks
+makeSound(c1)  # Cat Meows
+makeSound(l1)  # Lion roars
+```
+
+#### 💡 **Why Polymorphism?**
+
+The key benefit is that we can use the same method name (`sound()`) for different classes and let the object's type determine which method gets executed. This makes the code flexible and extensible.
+
+### 🤔 **Key Questions on Polymorphism**
+
+- What is the difference between compile-time and runtime polymorphism?
+- How does Python achieve polymorphism without method overloading?
+- What are the advantages of using polymorphism?
+- Can we have polymorphism with inheritance?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔽 Abstraction - Hide Complexity</h3></summary>
+
+> **Abstraction:** The process of hiding complex implementation details and showing only the essential features. Achieved using Abstract Base Classes (ABC) and @abstractmethod decorator.
+
+### 4️⃣ **Abstract Classes & Methods**
+
+#### 🎯 Basic Abstraction
+
+```python
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def walk(self):
+        pass  # Method definition is hidden, implementation is enforced
+
+class Dog(Animal):
+    def walk(self):
+        print("Can walk 4 legs")
+
+class Hen(Animal):
+    def walk(self):
+        print("Can walk 2 legs")
+
+d1 = Dog()
+d1.walk()  # Can walk 4 legs
+
+h1 = Hen()
+h1.walk()  # Can walk 2 legs
+
+# Animal()  # TypeError - Cannot instantiate abstract class
+```
+
+#### 🐄 Complex Example with Multiple Methods
+
+```python
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def walk(self):
+        pass
+    
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Cow(Animal):
+    def sound(self):
+        print("Cow Moos")
+
+    def walk(self):
+        print("Can walk 4 legs with 1 tail")
+
+c1 = Cow()
+c1.sound()  # Cow Moos
+c1.walk()   # Can walk 4 legs with 1 tail
+```
+
+#### 🚗 Real-world Example: Vehicle System
+
+```python
+from abc import ABC, abstractmethod
+
+class Vehicle(ABC):
+    @abstractmethod
+    def start(self):
+        pass
+    
+    @abstractmethod
+    def stop(self):
+        pass
+
+class Car(Vehicle):
+    def start(self):
+        print("Car engine started with key")
+    
+    def stop(self):
+        print("Car engine stopped")
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike engine started with kick")
+    
+    def stop(self):
+        print("Bike engine stopped")
+
+c1 = Car()
+c1.start()  # Car engine started with key
+c1.stop()   # Car engine stopped
+
+b1 = Bike()
+b1.start()  # Bike engine started with kick
+b1.stop()   # Bike engine stopped
+```
+
+### 🤔 **Key Questions on Abstraction**
+
+- What is the difference between abstract class and interface?
+- Why cannot we instantiate an abstract class?
+- What is the purpose of @abstractmethod decorator?
+- How does abstraction help in designing large systems?
+
+</details>
+
+---
+
+
 
 ### 📋 **Loops & Lists**
 
@@ -570,6 +972,53 @@ s1.welcome()  # Welcome Student
 | 30 | Student Grades - Calculate Average | 🟡 Medium | Instance Variables | ✅ |
 | 31 | Circle Class - Area & Perimeter Calculation | 🟡 Medium | Real-world Application | ✅ |
 | 32 | Static Methods in Class | 🟢 Easy | Static Methods | ✅ |
+
+---
+
+## ✅ DAY 2 - Problems Covered
+
+### 📌 **Encapsulation**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 1 | Private Attributes & Name Mangling | 🟢 Easy | Data Hiding | ✅ |
+| 2 | Private Methods & Access Control | 🟢 Easy | Method Privacy | ✅ |
+| 3 | Password Protection System | 🟡 Medium | Secure Access | ✅ |
+| 4 | Banking Account - Debit & Credit Operations | 🟡 Medium | Real-world Encapsulation | ✅ |
+| 5 | Getter & Setter Methods | 🟢 Easy | Access Methods | ✅ |
+
+### 🏛️ **Inheritance**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 6 | Single Level Inheritance | 🟢 Easy | Basic Inheritance | ✅ |
+| 7 | Multi-Level Inheritance | 🟡 Medium | Chain of Inheritance | ✅ |
+| 8 | Hierarchical Inheritance | 🟡 Medium | Multiple Child Classes | ✅ |
+| 9 | Hybrid Inheritance | 🟡 Medium | Mixed Inheritance | ✅ |
+| 10 | Multiple Inheritance | 🟡 Medium | Diamond Problem | ✅ |
+| 11 | Method Overriding in Child Class | 🟡 Medium | Override Methods | ✅ |
+| 12 | super() Function Usage | 🟡 Medium | Parent Method Call | ✅ |
+| 13 | Employee-Engineer Hierarchy | 🟠 Hard | Complex Inheritance | ✅ |
+
+### 🎭 **Polymorphism**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 14 | Method with Same Name Different Implementation | 🟢 Easy | Polymorphic Methods | ✅ |
+| 15 | Animal Sound System | 🟡 Medium | Runtime Polymorphism | ✅ |
+| 16 | Polymorphic Function Calling | 🟡 Medium | Dynamic Dispatch | ✅ |
+| 17 | Multiple Classes, Single Interface | 🟡 Medium | Interface Design | ✅ |
+
+### 🔽 **Abstraction**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 18 | Abstract Base Class Definition | 🟢 Easy | ABC Basics | ✅ |
+| 19 | Abstract Methods Implementation | 🟢 Easy | @abstractmethod | ✅ |
+| 20 | Animal Walk System | 🟡 Medium | Enforced Interface | ✅ |
+| 21 | Multiple Abstract Methods | 🟡 Medium | Complex Abstraction | ✅ |
+| 22 | Cannot Instantiate Abstract Class | 🟢 Easy | Abstraction Rule | ✅ |
+| 23 | Vehicle Management System | 🟠 Hard | Real-world Abstraction | ✅ |
 
 ---
 
