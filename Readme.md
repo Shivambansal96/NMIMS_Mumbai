@@ -6,17 +6,17 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
 ![Students](https://img.shields.io/badge/NMIMS-Engineering%20Students-blue?style=for-the-badge)
 ![Batch](https://img.shields.io/badge/Batch-CSDS%20%26%20CSBS-red?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%201-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%203-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Ongoing-yellow?style=for-the-badge)
 
 ### 🚀 *Master Python Fundamentals & Object-Oriented Programming!*
 
-**Resource Link - https://canva.link/52roxdoar8i7rrl**
+**Resource Link - [👋 Click Me](https://canva.link/52roxdoar8i7rrl)**
 
 **Welcome to your comprehensive Python learning journey!**
 Everything you need to become proficient in Python and master the core concepts of programming.
 
-[📚 Topics Covered](#-day-1-topics) • [💻 Problems Solved](#-problems-covered---day-1) • [🎯 What's Next](#-day-2-four-pillars-of-oop)
+[📚 Topics Covered](#-day-1-topics) • [💻 Problems Solved](#-day-3---problems-covered) • [🎯 What's Next](#-day-4-recursion-backtracking--linked-lists)
 
 ---
 
@@ -43,6 +43,20 @@ Day 2 - Four Pillars of OOP:
 ✅ Inheritance - Code Reusability & Type Hierarchy
 ✅ Polymorphism - Method Overriding & Same Interface
 ✅ Abstraction - Interface Definition & Implementation Hiding
+
+Day 3 - Two Pointers, Sliding Window & Regular Expressions:
+████████████████████████████████ 100%
+
+✅ Two Pointers - Converging Pointers & Array Traversal
+✅ Sliding Window - Dynamic Window & Optimal Subarray
+✅ Regular Expressions - Pattern Matching & Text Processing
+
+Day 4 - Recursion, Backtracking & Linked Lists:
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+⏳ Recursion - Function Calling Itself & Divide & Conquer
+⏳ Backtracking - Try & Revert Approach & Constraint Satisfaction
+⏳ Linked Lists - Node-based Data Structure & Pointer Manipulation
 ```
 
 ---
@@ -67,10 +81,26 @@ graph TB
         K["🔽 Abstraction"]
     end
     
+    subgraph Day3["📅 DAY 3: Advanced Array Techniques & Regex"]
+        L["👈👉 Two Pointers"]
+        M["🪟 Sliding Window"]
+        N["🔍 Regular Expressions"]
+    end
+    
+    subgraph Day4["📅 DAY 4: Recursion & Data Structures"]
+        O["🎯 Recursion"]
+        P["↩️ Backtracking"]
+        Q["🔗 Linked Lists"]
+    end
+    
     G --> H
+    K --> L
+    N --> O
     
     style Day1 fill:#90EE90,stroke:#228B22,stroke-width:3px
     style Day2 fill:#87CEEB,stroke:#4169E1,stroke-width:3px
+    style Day3 fill:#FFD700,stroke:#FF8C00,stroke-width:3px
+    style Day4 fill:#FFB6C1,stroke:#FF1493,stroke-width:3px
 ```
 
 ---
@@ -510,6 +540,75 @@ s1.welcome()  # Welcome Student
 
 ---
 
+
+
+## ✅ DAY 1 - Problems Covered
+
+### 📋 **Loops & Lists**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 1 | Create Array of Squares (1 to N) | 🟢 Easy | Loops & Lists | ✅ |
+| 2 | List Referencing & Mutation | 🟢 Easy | List References | ✅ |
+| 3 | Array Element Access & Assignment | 🟢 Easy | List Indexing | ✅ |
+
+### 📌 **Tuples**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 4 | Tuple Index & Count Methods | 🟢 Easy | Tuple Methods | ✅ |
+| 5 | Sort Tuple using sorted() & list.sort() | 🟢 Easy | Sorting | ✅ |
+| 6 | Tuple Traversal & Iteration | 🟢 Easy | Iteration | ✅ |
+| 7 | Separate Even & Odd Numbers from Tuple | 🟢 Easy | Tuple Processing | ✅ |
+| 8 | Count Even and Odd Elements | 🟢 Easy | Counting | ✅ |
+
+### 🎯 **Sets**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 9 | Create Set & Remove Duplicates with pop() | 🟢 Easy | Set Operations | ✅ |
+| 10 | Set Union & Intersection Operations | 🟢 Easy | Set Methods | ✅ |
+| 11 | Count Unique Elements (Duplicate Removal) | 🟢 Easy | Uniqueness | ✅ |
+| 12 | Find Duplicates - Nested Loop with Set | 🟡 Medium | Nested Loops | ✅ |
+| 13 | Find Duplicates - Array List Approach | 🟡 Medium | List Methods | ✅ |
+| 14 | Find Duplicates - Visited Set (Optimized) | 🟡 Medium | Hash Set | ✅ |
+
+### 🗂️ **Dictionary**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 15 | Create Nested Dictionary | 🟢 Easy | Dictionary Basics | ✅ |
+| 16 | Dictionary Access (keys(), values(), items(), get()) | 🟢 Easy | Dictionary Methods | ✅ |
+| 17 | Dictionary Update Operations | 🟢 Easy | Dictionary Modification | ✅ |
+| 18 | Dictionary with User Input | 🟢 Easy | Input Handling | ✅ |
+| 19 | Create Dictionary with Computed Values | 🟢 Easy | Loop-based Creation | ✅ |
+| 20 | Count Frequency of Array Elements | 🟡 Medium | Frequency Counting | ✅ |
+| 21 | Frequency Map using Dictionary | 🟡 Medium | Dictionary Counting | ✅ |
+
+### ⚙️ **Functions**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 22 | Basic Function - Addition Function | 🟢 Easy | Function Definition | ✅ |
+
+### 🏗️ **Object-Oriented Programming - Classes & Objects**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 23 | Basic Class Structure with Class Variables | 🟢 Easy | Class Basics | ✅ |
+| 24 | Class Instance Creation & Access | 🟢 Easy | Object Creation | ✅ |
+| 25 | Non-Parameterized Constructor | 🟢 Easy | Constructor | ✅ |
+| 26 | Parameterized Constructor | 🟢 Easy | Constructor Parameters | ✅ |
+| 27 | Parameterized Constructor with Default Values | 🟢 Easy | Default Parameters | ✅ |
+| 28 | Object Deletion (del keyword) | 🟢 Easy | Object Lifecycle | ✅ |
+| 29 | Instance Methods in Class | 🟢 Easy | Methods | ✅ |
+| 30 | Student Grades - Calculate Average | 🟡 Medium | Instance Variables | ✅ |
+| 31 | Circle Class - Area & Perimeter Calculation | 🟡 Medium | Real-world Application | ✅ |
+| 32 | Static Methods in Class | 🟢 Easy | Static Methods | ✅ |
+
+---
+
+
 # 📅 DAY 2: Four Pillars of OOP
 
 ## 📚 DAY 2 - Topics
@@ -909,72 +1008,6 @@ b1.stop()   # Bike engine stopped
 
 ---
 
-
-
-### 📋 **Loops & Lists**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 1 | Create Array of Squares (1 to N) | 🟢 Easy | Loops & Lists | ✅ |
-| 2 | List Referencing & Mutation | 🟢 Easy | List References | ✅ |
-| 3 | Array Element Access & Assignment | 🟢 Easy | List Indexing | ✅ |
-
-### 📌 **Tuples**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 4 | Tuple Index & Count Methods | 🟢 Easy | Tuple Methods | ✅ |
-| 5 | Sort Tuple using sorted() & list.sort() | 🟢 Easy | Sorting | ✅ |
-| 6 | Tuple Traversal & Iteration | 🟢 Easy | Iteration | ✅ |
-| 7 | Separate Even & Odd Numbers from Tuple | 🟢 Easy | Tuple Processing | ✅ |
-| 8 | Count Even and Odd Elements | 🟢 Easy | Counting | ✅ |
-
-### 🎯 **Sets**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 9 | Create Set & Remove Duplicates with pop() | 🟢 Easy | Set Operations | ✅ |
-| 10 | Set Union & Intersection Operations | 🟢 Easy | Set Methods | ✅ |
-| 11 | Count Unique Elements (Duplicate Removal) | 🟢 Easy | Uniqueness | ✅ |
-| 12 | Find Duplicates - Nested Loop with Set | 🟡 Medium | Nested Loops | ✅ |
-| 13 | Find Duplicates - Array List Approach | 🟡 Medium | List Methods | ✅ |
-| 14 | Find Duplicates - Visited Set (Optimized) | 🟡 Medium | Hash Set | ✅ |
-
-### 🗂️ **Dictionary**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 15 | Create Nested Dictionary | 🟢 Easy | Dictionary Basics | ✅ |
-| 16 | Dictionary Access (keys(), values(), items(), get()) | 🟢 Easy | Dictionary Methods | ✅ |
-| 17 | Dictionary Update Operations | 🟢 Easy | Dictionary Modification | ✅ |
-| 18 | Dictionary with User Input | 🟢 Easy | Input Handling | ✅ |
-| 19 | Create Dictionary with Computed Values | 🟢 Easy | Loop-based Creation | ✅ |
-| 20 | Count Frequency of Array Elements | 🟡 Medium | Frequency Counting | ✅ |
-| 21 | Frequency Map using Dictionary | 🟡 Medium | Dictionary Counting | ✅ |
-
-### ⚙️ **Functions**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 22 | Basic Function - Addition Function | 🟢 Easy | Function Definition | ✅ |
-
-### 🏗️ **Object-Oriented Programming - Classes & Objects**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 23 | Basic Class Structure with Class Variables | 🟢 Easy | Class Basics | ✅ |
-| 24 | Class Instance Creation & Access | 🟢 Easy | Object Creation | ✅ |
-| 25 | Non-Parameterized Constructor | 🟢 Easy | Constructor | ✅ |
-| 26 | Parameterized Constructor | 🟢 Easy | Constructor Parameters | ✅ |
-| 27 | Parameterized Constructor with Default Values | 🟢 Easy | Default Parameters | ✅ |
-| 28 | Object Deletion (del keyword) | 🟢 Easy | Object Lifecycle | ✅ |
-| 29 | Instance Methods in Class | 🟢 Easy | Methods | ✅ |
-| 30 | Student Grades - Calculate Average | 🟡 Medium | Instance Variables | ✅ |
-| 31 | Circle Class - Area & Perimeter Calculation | 🟡 Medium | Real-world Application | ✅ |
-| 32 | Static Methods in Class | 🟢 Easy | Static Methods | ✅ |
-
----
-
 ## ✅ DAY 2 - Problems Covered
 
 ### 📌 **Encapsulation**
@@ -1019,6 +1052,368 @@ b1.stop()   # Bike engine stopped
 | 21 | Multiple Abstract Methods | 🟡 Medium | Complex Abstraction | ✅ |
 | 22 | Cannot Instantiate Abstract Class | 🟢 Easy | Abstraction Rule | ✅ |
 | 23 | Vehicle Management System | 🟠 Hard | Real-world Abstraction | ✅ |
+
+---
+
+
+# 📅 DAY 3: Advanced Array Techniques & Regular Expressions
+
+## 📚 DAY 3 - Topics
+
+<details open>
+<summary><h3>👈👉 Two Pointers - Array Convergence</h3></summary>
+
+> **Two Pointers:** A technique that uses two pointers moving towards each other (converging) or in the same direction (fast-slow) to solve problems efficiently without extra space.
+
+### 1️⃣ **Two Pointers Techniques**
+
+#### 🔄 Converging Pointers - Palindrome Check
+
+```python
+# Method 1: Palindrome Check (Converging Pointers)
+s = "racecar"
+start = 0
+end = len(s) - 1
+
+isPalindrome = True
+while start <= end:
+    if s[start] != s[end]:
+        isPalindrome = False
+        break
+    start += 1
+    end -= 1
+
+print(f"Is Palindrome: {isPalindrome}")  # True
+```
+
+#### 🔀 Parallel Pointers - Merge Two Sorted Arrays
+
+```python
+# Merge two sorted arrays using parallel pointers
+a = [2, 5, 9, 12, 98]
+b = [4, 8, 16]
+sortedArr = []
+
+i = 0
+j = 0
+
+while i < len(a) and j < len(b):
+    if a[i] < b[j]:
+        sortedArr.append(a[i])
+        i += 1
+    else:
+        sortedArr.append(b[j])
+        j += 1
+
+# Add remaining elements from both arrays
+while i < len(a):
+    sortedArr.append(a[i])
+    i += 1
+
+while j < len(b):
+    sortedArr.append(b[j])
+    j += 1
+
+print(sortedArr)  # [2, 4, 5, 8, 9, 12, 16, 98]
+```
+
+#### ⚡ Fast-Slow Pointers - Remove Duplicates from Sorted Array
+
+```python
+# Remove duplicates using fast-slow pointers (trigger-based)
+arr = [1, 2, 2, 3, 5, 5, 6]
+
+i = 0  # Slow pointer (position where unique element should be placed)
+j = 1  # Fast pointer (scanning pointer)
+
+while j < len(arr):
+    if arr[i] != arr[j]:  # Found a new unique element
+        i += 1
+        arr[i] = arr[j]  # Place it at position i
+    j += 1
+
+print(arr[:i + 1])  # [1, 2, 3, 5, 6]
+```
+
+### 🤔 **Key Questions on Two Pointers**
+
+- What is the difference between converging and parallel pointers?
+- Why is two pointers more efficient than nested loops?
+- What is the fast-slow pointer technique also known as?
+- When should we use converging pointers vs parallel pointers?
+- Can we use two pointers on unsorted arrays?
+- What is the time and space complexity of two pointer approach?
+- Explain the trigger-based pointer approach?
+- Why does removing duplicates work with fast-slow pointers?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🪟 Sliding Window - Dynamic Window</h3></summary>
+
+> **Sliding Window:** A technique that maintains a window of elements and slides it across the array to find optimal subarrays or substrings.
+
+### 2️⃣ **Sliding Window Technique**
+
+#### 📊 Maximum Sum Subarray of Size K
+
+```python
+# Find maximum sum of any subarray of size k
+arr = [1, 4, 2, 10, 2, 3, 1, 0, 20]
+k = 4
+
+# Calculate sum of first window
+window_sum = sum(arr[:k])
+max_sum = window_sum
+
+# Slide the window
+for i in range(1, len(arr) - k + 1):
+    window_sum = window_sum - arr[i - 1] + arr[i + k - 1]
+    max_sum = max(max_sum, window_sum)
+
+print(max_sum)  # 24 (subarray [3, 1, 0, 20])
+```
+
+#### 🔍 Longest Substring Without Repeating Characters
+
+```python
+# Find longest substring with all unique characters
+s = "abcabcbb"
+char_index = {}
+max_length = 0
+start = 0
+
+for end in range(len(s)):
+    if s[end] in char_index:
+        start = max(start, char_index[s[end]] + 1)
+    
+    char_index[s[end]] = end
+    max_length = max(max_length, end - start + 1)
+
+print(max_length)  # 3 (substring "abc")
+```
+
+#### 🎪 Minimum Window Substring
+
+```python
+# Find minimum window substring containing all characters
+s = "ADOBECODEBANC"
+t = "ABC"
+
+# Character frequency map for target
+target_freq = {}
+for char in t:
+    target_freq[char] = target_freq.get(char, 0) + 1
+
+required = len(target_freq)
+formed = 0
+window_counts = {}
+
+min_length = float('inf')
+min_start = 0
+left = 0
+
+for right in range(len(s)):
+    char = s[right]
+    window_counts[char] = window_counts.get(char, 0) + 1
+    
+    if char in target_freq and window_counts[char] == target_freq[char]:
+        formed += 1
+    
+    while left <= right and formed == required:
+        if right - left + 1 < min_length:
+            min_length = right - left + 1
+            min_start = left
+        
+        char = s[left]
+        window_counts[char] -= 1
+        if char in target_freq and window_counts[char] < target_freq[char]:
+            formed -= 1
+        left += 1
+
+print(s[min_start:min_start + min_length])  # "BANC"
+```
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔍 Regular Expressions - Pattern Matching</h3></summary>
+
+> **Regular Expressions (Regex):** Powerful patterns used to match, search, and manipulate strings based on specific patterns.
+
+### 3️⃣ **Regex Fundamentals**
+
+#### 📝 Basic Pattern Matching
+
+```python
+import re
+
+# Simple pattern matching
+text = "Hello World 123"
+
+# Match digits
+digits = re.findall(r'\d', text)
+print(digits)  # ['1', '2', '3']
+
+# Match words
+words = re.findall(r'\w+', text)
+print(words)  # ['Hello', 'World', '123']
+
+# Match specific pattern
+match = re.search(r'World', text)
+print(match.group())  # 'World'
+```
+
+#### 📧 Email Validation
+
+```python
+import re
+
+emails = [
+    "user@example.com",
+    "invalid.email@",
+    "another@domain.co.uk",
+    "bad@.com"
+]
+
+pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+
+for email in emails:
+    if re.match(pattern, email):
+        print(f"{email} ✅")
+    else:
+        print(f"{email} ❌")
+```
+
+#### 🌐 URL Extraction
+
+```python
+import re
+
+text = "Visit https://example.com and http://test.org for more info"
+
+urls = re.findall(r'https?://[^\s]+', text)
+print(urls)  # ['https://example.com', 'http://test.org']
+```
+
+#### 🔢 Extract Numbers from Text
+
+```python
+import re
+
+text = "The price is $25.99 and quantity is 100 items"
+
+# Extract all numbers
+numbers = re.findall(r'\d+\.?\d*', text)
+print(numbers)  # ['25.99', '100']
+
+# Extract integer prices
+prices = re.findall(r'\$(\d+\.\d{2})', text)
+print(prices)  # ['25.99']
+```
+
+#### 🔄 String Replacement with Regex
+
+```python
+import re
+
+text = "Contact: john@example.com or jane@test.com"
+
+# Replace emails with masked version
+masked = re.sub(r'[\w.-]+@[\w.-]+', '[EMAIL]', text)
+print(masked)  # "Contact: [EMAIL] or [EMAIL]"
+
+# Replace multiple spaces with single space
+text = "Hello    World    Test"
+cleaned = re.sub(r'\s+', ' ', text)
+print(cleaned)  # "Hello World Test"
+```
+
+#### 📋 Common Regex Patterns
+
+```
+\d      - Any digit (0-9)
+\D      - Any non-digit
+\w      - Word character (a-z, A-Z, 0-9, _)
+\W      - Non-word character
+\s      - Whitespace
+\S      - Non-whitespace
+.       - Any character except newline
+^       - Start of string
+$       - End of string
+*       - Zero or more occurrences
++       - One or more occurrences
+?       - Zero or one occurrence
+{n}     - Exactly n occurrences
+{n,m}   - Between n and m occurrences
+[abc]   - Any of a, b, or c
+[a-z]   - Range from a to z
+(abc)   - Group
+|       - Or operator
+```
+
+</details>
+
+---
+
+## ✅ DAY 3 - Problems Covered
+
+### 👈👉 **Two Pointers**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 1 | Palindrome Check - Converging Pointers (Method 1) | 🟢 Easy | Converging Pointers | ✅ |
+| 2 | Palindrome Check - Converging Pointers (Method 2) | 🟢 Easy | String Validation | ✅ |
+| 3 | Merge Two Sorted Arrays - Parallel Pointers | 🟡 Medium | Array Merging | ✅ |
+| 4 | Remove Duplicates from Sorted Array - Fast/Slow Pointers | 🟡 Medium | In-place Operations | ✅ |
+| 5 | Remove Duplicates with Uniqueness Check | 🟡 Medium | Trigger-based Pointers | ✅ |
+| 6 | Maximum Average Subarray (Two Pointer Variant) | 🟡 Medium | Window Movement | ✅ |
+
+### 🪟 **Sliding Window**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 8 | Maximum Sum Subarray of Size K | 🟢 Easy | Basic Window | ✅ |
+| 9 | Sliding Window - Find Maximum in Each Window | 🟡 Medium | Window Operations | ✅ |
+| 10 | Longest Substring Without Repeating Characters | 🟡 Medium | Dynamic Window | ✅ |
+| 11 | Longest Substring with K Distinct Characters | 🟡 Medium | Window Constraints | ✅ |
+| 12 | Minimum Window Substring | 🟠 Hard | Complex Window | ✅ |
+| 13 | Fruits into Baskets | 🟡 Medium | Window Optimization | ✅ |
+| 14 | Average of Subarrays of Size K | 🟢 Easy | Window Average | ✅ |
+
+### 🔍 **Regular Expressions**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 15 | Email Validation using Regex | 🟡 Medium | Email Pattern | ✅ |
+| 16 | URL Extraction from Text | 🟡 Medium | URL Pattern | ✅ |
+| 17 | Phone Number Validation | 🟡 Medium | Phone Pattern | ✅ |
+| 18 | Extract Numbers from String | 🟢 Easy | Digit Pattern | ✅ |
+| 19 | Replace Patterns in Text | 🟢 Easy | String Substitution | ✅ |
+| 20 | Remove HTML Tags from Text | 🟡 Medium | Tag Pattern | ✅ |
+| 21 | Validate Password Strength | 🟡 Medium | Complex Pattern | ✅ |
+| 22 | Split String by Pattern | 🟢 Easy | Regex Split | ✅ |
+| 23 | Find All Matches in Text | 🟢 Easy | Pattern Matching | ✅ |
+| 24 | Case Conversion with Regex | 🟢 Easy | Case Handling | ✅ |
+
+---
+
+# 📅 DAY 4: Recursion, Backtracking & Linked Lists
+
+## 📊 Learning Progress (Day 4)
+
+```
+Day 4 - Recursion, Backtracking & Linked Lists:
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+⏳ Recursion - Function Calling Itself
+⏳ Backtracking - Try & Revert Approach
+⏳ Linked Lists - Node-based Data Structure
+```
 
 ---
 
