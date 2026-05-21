@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
 ![Students](https://img.shields.io/badge/NMIMS-Engineering%20Students-blue?style=for-the-badge)
 ![Batch](https://img.shields.io/badge/Batch-AI%20&%20Cyber%20&%20CSBS-red?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%203-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%204-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Ongoing-yellow?style=for-the-badge)
 
 ### 🚀 *Crack DSA with Python – From Logic to Problem Solving!!!*
@@ -52,11 +52,11 @@ Day 3 - Two Pointers, Sliding Window & Regular Expressions:
 ✅ Regular Expressions - Pattern Matching & Text Processing
 
 Day 4 - Recursion, Backtracking & Linked Lists:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+████████████████████████████████ 100%
 
-⏳ Recursion - Function Calling Itself & Divide & Conquer
-⏳ Backtracking - Try & Revert Approach & Constraint Satisfaction
-⏳ Linked Lists - Node-based Data Structure & Pointer Manipulation
+✅ Recursion - Function Calling Itself & Divide & Conquer
+✅ Backtracking - Try & Revert Approach & Constraint Satisfaction
+✅ Linked Lists - Node-based Data Structure & Pointer Manipulation
 ```
 
 ---
@@ -1404,16 +1404,308 @@ $       - End of string
 
 # 📅 DAY 4: Recursion, Backtracking & Linked Lists
 
-## 📊 Learning Progress (Day 4)
+## � DAY 4 - Topics
+
+<details open>
+<summary><h3>🎯 Recursion - Function Calling Itself</h3></summary>
+
+> **Recursion:** A programming technique where a function calls itself to solve a problem by breaking it down into smaller sub-problems. Every recursive function must have a base case to prevent infinite recursion.
+
+### 1️⃣ **Recursion Fundamentals**
+
+#### 📊 Print N to 1 (Decreasing Order)
+
+```python
+def printNum(n):
+    if (n == 0):        # Base Case
+        return
+    
+    print(n)            # Print before recursive call
+    printNum(n - 1)     # Recursive Case
+
+printNum(10)
+# Output: 10 9 8 7 6 5 4 3 2 1
+```
+
+#### 🔢 Print 1 to N (Increasing Order)
+
+```python
+def printNum(i, n):
+    if (i == n):        # Base Case
+        return
+    
+    print(i)            # Print in increasing order
+    printNum(i + 1, n)  # Recursive Case
+
+n = int(input("Enter a num: "))
+printNum(1, n + 1)
+# Output: 1 2 3 ... n
+```
+
+#### ➕ Sum of N Natural Numbers
+
+```python
+def naturalSum(n):
+    if (n == 0):        # Base Case
+        return 0
+    
+    # Recursive formula: n + sum(n-1)
+    return n + naturalSum(n - 1)
+
+res = naturalSum(5)
+print(res)              # 15 (1+2+3+4+5)
+```
+
+#### 🎓 Factorial Calculation
+
+```python
+def factorial(n):
+    if (n == 0 or n == 1):  # Base Case
+        return 1
+    
+    # Recursive formula: n * factorial(n-1)
+    return n * factorial(n - 1)
+
+res = factorial(5)
+print(res)              # 120 (5*4*3*2*1)
+```
+
+#### 🔄 Permutation & Combination
+
+```python
+def factorial(n):
+    if (n == 0 or n == 1):
+        return 1
+    return n * factorial(n - 1)
+
+n = 5
+r = 3
+
+# Permutation P(n, r) = n! / (n-r)!
+permutation = factorial(n) / factorial(n - r)
+print(f"Permutation = {permutation}")  # 60
+
+# Combination C(n, r) = n! / (r! * (n-r)!)
+combination = factorial(n) / (factorial(r) * factorial(n - r))
+print(f"Combination = {combination}")  # 10
+```
+
+#### 📈 Fibonacci Series
+
+```python
+def fibonacci(n):
+    if n == 0:          # Base Case 1
+        return 0
+    
+    if n == 1:          # Base Case 2
+        return 1
+    
+    # Recursive formula: fib(n-1) + fib(n-2)
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+print("Fibonacci Series = ", end="")
+for i in range(10):
+    print(fibonacci(i), end=" ")
+# Output: 0 1 1 2 3 5 8 13 21 34
+```
+
+### 🤔 **Key Questions on Recursion**
+
+- What is a base case and why is it important?
+- What is stack overflow and how does recursion relate to it?
+- What are the advantages and disadvantages of recursion?
+- How does recursion differ from iteration?
+- What is memoization and when should it be used?
+- Explain the call stack in recursion?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>↩️ Backtracking - Try & Revert Approach</h3></summary>
+
+> **Backtracking:** An algorithmic technique that considers searching every possible combination in hopes of finding a solution. It works by trying an option and backing up if it doesn't work out.
+
+### 2️⃣ **Backtracking Techniques**
+
+#### 🎯 N Queens Problem (Theory)
 
 ```
-Day 4 - Recursion, Backtracking & Linked Lists:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+The N-Queens problem: Place N queens on an N×N chessboard such that
+no two queens threaten each other (no two queens on same row, column,
+or diagonal).
 
-⏳ Recursion - Function Calling Itself
-⏳ Backtracking - Try & Revert Approach
-⏳ Linked Lists - Node-based Data Structure
+Key Concepts:
+- Try placing a queen in each position
+- Check if placement is valid (not attacked by existing queens)
+- If valid, move to next row and try to place next queen
+- If unable to place (dead end), backtrack to previous position
+- Try alternative positions
 ```
+
+#### 🗺️ Count Paths in a Maze
+
+```python
+def countPaths(i, j, n, m):
+    # Dead End - out of bounds
+    if (i == n or j == m):
+        return 0
+    
+    # Reach Destination (bottom-right corner)
+    if (i == n - 1 and j == m - 1):
+        return 1
+    
+    # Right Path - move right
+    rightPath = countPaths(i, j + 1, n, m)
+    
+    # Down Path - move down
+    downPath = countPaths(i + 1, j, n, m)
+    
+    # Total paths = Right paths + Down paths
+    return downPath + rightPath
+
+n = m = 3
+print(countPaths(0, 0, n, m))  # 6 (6 different paths in 3x3 maze)
+```
+
+**DRY RUN for 3×3 Maze:**
+```
+    From (0,0) to (2,2)
+    Possible moves: Right or Down
+    
+    Paths:
+    1. Right → Right → Down → Down
+    2. Right → Down → Right → Down
+    3. Right → Down → Down → Right
+    4. Down → Right → Right → Down
+    5. Down → Right → Down → Right
+    6. Down → Down → Right → Right
+```
+
+### 🤔 **Key Questions on Backtracking**
+
+- What is the difference between backtracking and recursion?
+- When should we use backtracking over other approaches?
+- What is pruning in backtracking?
+- How do we determine if a state is valid in backtracking?
+- What are the time and space complexities of backtracking?
+- Give examples of problems that use backtracking?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔗 Linked Lists - Node-based Data Structure</h3></summary>
+
+> **Linked List:** A linear data structure consisting of nodes connected through pointers/references. Unlike arrays, linked lists don't require contiguous memory and allow dynamic memory allocation.
+
+### 3️⃣ **Linked List Fundamentals**
+
+#### 📌 Types of Linked Lists
+
+```
+1. Singly Linked List (SLL)
+   - Each node has data and pointer to next node
+   - Traversal is unidirectional (forward only)
+   - Structure: [Data | Next] → [Data | Next] → [Data | None]
+
+2. Doubly Linked List (DLL)
+   - Each node has data, previous pointer, and next pointer
+   - Traversal is bidirectional (forward and backward)
+   - Structure: [Prev | Data | Next] ↔ [Prev | Data | Next]
+
+3. Circular Linked List (CLL)
+   - Last node points back to first node
+   - Can be singly or doubly circular
+   - Structure: [Data | Next] → [Data | Next] → (points to first)
+```
+
+#### 🏗️ Node Structure & Single Linked List Creation
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data        # Data portion of node
+        self.next = None        # Pointer to next node (initially None)
+
+class LL:
+    def printList(self):
+        currentNode = firstNode
+        
+        while(currentNode != None):
+            print(currentNode.data, end=" -> ")
+            currentNode = currentNode.next
+        
+        print(None)
+
+# Create nodes and link them
+firstNode = Node(4)
+firstNode.next = Node(10)
+firstNode.next.next = Node(100)
+
+# Print the linked list
+list1 = LL()
+list1.printList()
+# Output: 4->10->100->None
+```
+
+#### 💡 **Brute Force Approach for Linked Lists**
+
+```
+In brute force approach:
+- Create individual nodes manually
+- Link them by setting next pointers
+- Traverse the list to print/access data
+- No dynamic insertion/deletion methods yet
+- Basic understanding of node connections
+```
+
+### 🤔 **Key Questions on Linked Lists**
+
+- Why use linked lists over arrays?
+- What is the advantage of dynamic memory allocation?
+- What is the difference between singly and doubly linked lists?
+- How do we handle the head pointer in linked lists?
+- What are the common operations on linked lists?
+- Compare time complexities: Arrays vs Linked Lists?
+
+</details>
+
+---
+
+## ✅ DAY 4 - Problems Covered
+
+### 🎯 **Recursion Basics**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 1 | Print N to 1 (Decreasing Order) | 🟢 Easy | Basic Recursion | ✅ |
+| 2 | Print 1 to N (Increasing Order) | 🟢 Easy | Recursion with Parameters | ✅ |
+| 3 | Sum of N Natural Numbers | 🟢 Easy | Recursive Accumulation | ✅ |
+| 4 | Factorial Calculation | 🟢 Easy | Recursive Multiplication | ✅ |
+| 5 | Permutation Calculation | 🟡 Medium | Using Factorial | ✅ |
+| 6 | Combination Calculation | 🟡 Medium | Using Factorial | ✅ |
+| 7 | Fibonacci Series Generation | 🟡 Medium | Multiple Base Cases | ✅ |
+
+### ↩️ **Backtracking**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 8 | N Queens Problem (Theory & Explanation) | 🟠 Hard | Constraint Satisfaction | ✅ |
+| 9 | Count Paths in Maze (2D Grid) | 🟡 Medium | Backtracking on Grid | ✅ |
+| 10 | DRY RUN for Maze Paths | 🟢 Easy | Step-by-step Execution | ✅ |
+
+### 🔗 **Linked Lists Basics**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 11 | Understand Linked List Types (SLL, DLL, CLL) | 🟢 Easy | LL Concepts | ✅ |
+| 12 | Node Class Definition | 🟢 Easy | Node Structure | ✅ |
+| 13 | Create Single Linked List (Manual Creation) | 🟡 Medium | Node Linking | ✅ |
+| 14 | Print Linked List (Traversal) | 🟢 Easy | List Traversal | ✅ |
+| 15 | Single Linked List - Brute Force Approach | 🟡 Medium | Manual Operations | ✅ |
 
 ---
 
