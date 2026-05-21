@@ -9,7 +9,7 @@
 ![Progress](https://img.shields.io/badge/Day%203-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Ongoing-yellow?style=for-the-badge)
 
-### 🚀 *Master Python Fundamentals & Object-Oriented Programming!*
+### 🚀 *Crack DSA with Python – From Logic to Problem Solving!!!*
 
 **Resource Link - <a href="https://canva.link/52roxdoar8i7rrl" target="_blank"  style="text-decoration: none">👋 Click Me</a>**
 
