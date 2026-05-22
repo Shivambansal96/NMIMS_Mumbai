@@ -146,6 +146,11 @@ class LL:
             self.tail = newNode
 
         else:
+
+            newNode.next = self.head
+            self.head.prev = newNode
+
+            self.head = newNode
             
 
     def append(self, data):
@@ -153,15 +158,14 @@ class LL:
 
         if self.head is None:
             self.head = newNode
+            self.tail = newNode
 
         else:
-            currentNode = self.head
+            self.tail.next = newNode
+            newNode.prev = self.tail
+            self.tail = newNode
 
-            while currentNode.next is not None:
-                currentNode = currentNode.next
-
-            currentNode.next = newNode
-
+        
     def deleteStart(self):
         
         if self.head is None:
@@ -187,11 +191,16 @@ class LL:
         currentNode = self.head
 
         while(currentNode is not None):
-            print(currentNode.data, end=" -> ")
+            print(currentNode.data, end=" <-> ")
             currentNode = currentNode.next
 
         print(None)
 
 list1 = LL()
 list1.prepend(2)
+list1.prepend(13)
+list1.prepend(99)
+
+list1.append(23)
+list1.append(123)
 list1.printList()
