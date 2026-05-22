@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
 ![Students](https://img.shields.io/badge/NMIMS-Engineering%20Students-blue?style=for-the-badge)
 ![Batch](https://img.shields.io/badge/Batch-AI%20&%20Cyber%20&%20CSBS-red?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%204-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%205-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Ongoing-yellow?style=for-the-badge)
 
 ### 🚀 *Crack DSA with Python – From Logic to Problem Solving!!!*
@@ -57,6 +57,22 @@ Day 4 - Recursion, Backtracking & Linked Lists:
 ✅ Recursion - Function Calling Itself & Divide & Conquer
 ✅ Backtracking - Try & Revert Approach & Constraint Satisfaction
 ✅ Linked Lists - Node-based Data Structure & Pointer Manipulation
+
+Day 5 - Linked List Variants & Stack Data Structure:
+████████████████████████████████ 100%
+
+
+✅ Singly Linked List - Single Direction Traversal & Operations
+✅ Doubly Linked List - Bidirectional Traversal & Dual Pointers
+✅ Circular Linked List - Cyclic Structure & Tail-to-Head Connection
+✅ Stack - LIFO Principle & Push-Pop Operations
+
+Day 6 - Stack Problems, Queues & Introduction to Trees:
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+
+⏳ Valid Parentheses Problem - Stack Application
+⏳ Queue Data Structure - FIFO Principle & Operations
+⏳ Trees - Introduction to Tree Concepts & Terminology
 ```
 
 ---
@@ -1404,8 +1420,8 @@ $       - End of string
 
 # 📅 DAY 4: Recursion, Backtracking & Linked Lists
 
-## � DAY 4 - Topics
-
+## 📚 DAY 4 - Topics
+    `
 <details open>
 <summary><h3>🎯 Recursion - Function Calling Itself</h3></summary>
 
@@ -1706,6 +1722,550 @@ In brute force approach:
 | 13 | Create Single Linked List (Manual Creation) | 🟡 Medium | Node Linking | ✅ |
 | 14 | Print Linked List (Traversal) | 🟢 Easy | List Traversal | ✅ |
 | 15 | Single Linked List - Brute Force Approach | 🟡 Medium | Manual Operations | ✅ |
+
+---
+
+# 📅 DAY 5: Linked List Variants & Stack Data Structure
+
+## 📚 DAY 5 - Topics
+
+<details open>
+<summary><h3>🔗 Singly Linked List - Single Direction Traversal</h3></summary>
+
+> **Singly Linked List (SLL):** A linear data structure where each node contains data and a pointer to the next node. Traversal is unidirectional (forward only).
+
+### Node & List Structure
+
+```
+Structure: [Data | Next] → [Data | Next] → [Data | None]
+           ↓
+        Node(4)  →  Node(10)  →  Node(100)  →  None
+```
+
+### 1️⃣ **Singly Linked List Operations**
+
+#### ➕ Prepend (Insert at Beginning)
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class LL:
+    def __init__(self):
+        self.head = None
+
+    def prepend(self, data):
+        newNode = Node(data)
+        if self.head is not None:
+            newNode.next = self.head
+        self.head = newNode
+
+    def printList(self):
+        currentNode = self.head
+        while currentNode is not None:
+            print(currentNode.data, end=" -> ")
+            currentNode = currentNode.next
+        print(None)
+
+list1 = LL()
+list1.prepend(2)
+list1.prepend(42)
+list1.prepend(123)
+list1.printList()  # 123 -> 42 -> 2 -> None
+```
+
+#### ➕ Append (Insert at End)
+
+```python
+def append(self, data):
+    newNode = Node(data)
+    
+    if self.head is None:
+        self.head = newNode
+    else:
+        currentNode = self.head
+        while currentNode.next is not None:
+            currentNode = currentNode.next
+        currentNode.next = newNode
+
+list1 = LL()
+list1.append(98)
+list1.append(42)
+list1.append(7)
+list1.printList()  # 98 -> 42 -> 7 -> None
+```
+
+#### ❌ Delete from Start
+
+```python
+def deleteStart(self):
+    if self.head is None:
+        print("Linked List is Empty!!!")
+    else:
+        self.head = self.head.next
+
+list1 = LL()
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.deleteStart()
+list1.printList()  # 2 -> 3 -> None
+```
+
+#### ❌ Delete from End
+
+```python
+def deleteEnd(self):
+    if self.head is None:
+        print("LL is Empty !!!")
+    elif self.head.next is None:
+        self.head = None
+    else:
+        currentNode = self.head
+        while currentNode.next.next is not None:
+            currentNode = currentNode.next
+        currentNode.next = None
+
+list1 = LL()
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.deleteEnd()
+list1.printList()  # 1 -> 2 -> None
+```
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔗 Doubly Linked List - Bidirectional Traversal</h3></summary>
+
+> **Doubly Linked List (DLL):** Each node contains data, a pointer to the next node, and a pointer to the previous node. Enables bidirectional traversal.
+
+### Node & List Structure
+
+```
+Structure: [Prev | Data | Next] ↔ [Prev | Data | Next]
+           ↓
+        Node(4) ↔ Node(10) ↔ Node(100)
+        ↑ None    ↑            ↑ None
+```
+
+### 2️⃣ **Doubly Linked List Operations**
+
+#### ➕ Prepend (Insert at Beginning)
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.prev = None
+
+class LL:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+
+    def prepend(self, data):
+        newNode = Node(data)
+        
+        if self.head is None:
+            self.head = newNode
+            self.tail = newNode
+        else:
+            newNode.next = self.head
+            self.head.prev = newNode
+            self.head = newNode
+
+    def printList(self):
+        currentNode = self.head
+        while currentNode is not None:
+            print(currentNode.data, end=" <-> ")
+            currentNode = currentNode.next
+        print(None)
+
+list1 = LL()
+list1.prepend(2)
+list1.prepend(13)
+list1.prepend(99)
+list1.printList()  # 99 <-> 13 <-> 2 <-> None
+```
+
+#### ➕ Append (Insert at End)
+
+```python
+def append(self, data):
+    newNode = Node(data)
+    
+    if self.head is None:
+        self.head = newNode
+        self.tail = newNode
+    else:
+        self.tail.next = newNode
+        newNode.prev = self.tail
+        self.tail = newNode
+
+list1 = LL()
+list1.append(10)
+list1.append(20)
+list1.append(30)
+list1.printList()  # 10 <-> 20 <-> 30 <-> None
+```
+
+#### ❌ Delete from Start
+
+```python
+def deleteStart(self):
+    if self.head is None:
+        print("Linked List is Empty!!!")
+    elif self.head.next is None:
+        self.head = None
+        self.tail = None
+    else:
+        self.head = self.head.next
+        self.head.prev = None
+
+list1 = LL()
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.deleteStart()
+list1.printList()  # 2 <-> 3 <-> None
+```
+
+#### ❌ Delete from End
+
+```python
+def deleteEnd(self):
+    if self.head is None:
+        print("LL is Empty !!!")
+    elif self.head == self.tail:
+        self.head = None
+        self.tail = None
+    else:
+        self.tail = self.tail.prev
+        self.tail.next = None
+
+list1 = LL()
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.deleteEnd()
+list1.printList()  # 1 <-> 2 <-> None
+```
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔗 Circular Linked List - Cyclic Structure</h3></summary>
+
+> **Circular Linked List (CLL):** The last node points back to the first node, creating a circular structure. Can be singly or doubly circular.
+
+### Node & List Structure
+
+```
+Structure: [Data | Next] → [Data | Next] → (loops back to first)
+           ↓
+        Node(4) → Node(10) → Node(100) → (back to Node(4))
+```
+
+### 3️⃣ **Circular Linked List Operations**
+
+#### ➕ Prepend (Insert at Beginning)
+
+```python
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.prev = None
+
+class LL:
+    def __init__(self):
+        self.head = None
+        self.tail = None
+
+    def prepend(self, data):
+        newNode = Node(data)
+        
+        if self.head is None:
+            self.head = newNode
+            self.tail = newNode
+        else:
+            newNode.next = self.head
+            newNode.prev = self.tail
+            self.head.prev = newNode
+            self.tail.next = newNode
+            self.head = newNode
+
+    def printList(self):
+        currentNode = self.head
+        
+        while currentNode is not self.tail:
+            print(currentNode.data, end=" <-> ")
+            currentNode = currentNode.next
+        
+        if self.head is not None:
+            print(currentNode.data, end=" <-> ")
+        print("(back to head)")
+
+list1 = LL()
+list1.prepend(242)
+list1.prepend(100)
+list1.prepend(2)
+list1.printList()  # 2 <-> 100 <-> 242 <-> (back to head)
+```
+
+#### ➕ Append (Insert at End)
+
+```python
+def append(self, data):
+    newNode = Node(data)
+    
+    if self.head is None:
+        self.head = newNode
+        self.tail = newNode
+    else:
+        newNode.next = self.head
+        newNode.prev = self.tail
+        self.head.prev = newNode
+        self.tail.next = newNode
+        self.tail = newNode
+
+list1 = LL()
+list1.append(10)
+list1.append(20)
+list1.append(30)
+list1.printList()  # 10 <-> 20 <-> 30 <-> (back to head)
+```
+
+#### ❌ Delete from Start
+
+```python
+def deleteStart(self):
+    if self.head is None:
+        print("Linked List is Empty!!!")
+    elif self.head.next is None:
+        self.head = None
+        self.tail = None
+    else:
+        self.head = self.head.next
+        self.head.prev = self.tail
+        self.tail.next = self.head
+
+list1 = LL()
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.deleteStart()
+list1.printList()  # 2 <-> 3 <-> (back to head)
+```
+
+#### ❌ Delete from End
+
+```python
+def deleteEnd(self):
+    if self.head is None:
+        print("LL is Empty !!!")
+    elif self.head == self.tail:
+        self.head = None
+        self.tail = None
+    else:
+        self.tail = self.tail.prev
+        self.tail.next = self.head
+        self.head.prev = self.tail
+
+list1 = LL()
+list1.append(1)
+list1.append(2)
+list1.append(3)
+list1.deleteEnd()
+list1.printList()  # 1 <-> 2 <-> (back to head)
+```
+
+</details>
+
+---
+
+<details open>
+<summary><h3>📚 Stack - LIFO Data Structure</h3></summary>
+
+> **Stack:** A Last-In-First-Out (LIFO) data structure where elements are added and removed from the same end (top). Think of a stack of plates – the last plate placed is the first one removed.
+
+### Stack Structure
+
+```
+Visual Representation (Push 1, 2, 3, 4):
+
+    ┌─────┐
+    │  4  │  ← Top (Last In)
+    ├─────┤
+    │  3  │
+    ├─────┤
+    │  2  │
+    ├─────┤
+    │  1  │
+    └─────┘
+```
+
+### 4️⃣ **Stack Operations**
+
+#### Push (Add to Top)
+
+```python
+class Stk:
+    def __init__(self):
+        self.stk = []
+
+    def push(self, data):
+        self.stk.append(data)
+
+stack1 = Stk()
+stack1.push(45)
+stack1.push(12)
+stack1.push(99)
+# Stack: [45, 12, 99]
+```
+
+#### Pop (Remove from Top)
+
+```python
+def pop(self):
+    if self.isEmpty():
+        print("Stack is Empty !!!")
+        return
+    
+    topElement = self.stk[-1]
+    self.stk.remove(topElement)
+    return topElement
+
+stack1 = Stk()
+stack1.push(1)
+stack1.push(2)
+stack1.push(3)
+stack1.pop()  # Removes 3
+# Stack: [1, 2]
+```
+
+#### Peek (View Top Element)
+
+```python
+def peek(self):
+    return self.stk[-1]
+
+stack1 = Stk()
+stack1.push(10)
+stack1.push(20)
+top = stack1.peek()
+print(top)  # 20 (doesn't remove)
+```
+
+#### isEmpty (Check if Empty)
+
+```python
+def isEmpty(self):
+    return len(self.stk) == 0
+
+stack1 = Stk()
+print(stack1.isEmpty())  # True
+
+stack1.push(5)
+print(stack1.isEmpty())  # False
+```
+
+#### Print Stack
+
+```python
+def printStack(self):
+    for i in self.stk:
+        print(f" | {i}  |")
+        print(" | --- |")
+
+stack1 = Stk()
+stack1.push(45)
+stack1.push(12)
+stack1.push(99)
+stack1.printStack()
+# Output:
+#  | 45  |
+#  | --- |
+#  | 12  |
+#  | --- |
+#  | 99  |
+#  | --- |
+```
+
+### 🎯 **Stack Applications**
+
+- **Undo/Redo Functionality** - Browser back button
+- **Expression Evaluation** - Parenthesis matching
+- **Function Call Stack** - Method execution in programs
+- **Depth First Search (DFS)** - Graph traversal
+- **Backtracking Algorithms** - N-Queens, Maze solving
+
+</details>
+
+---
+
+## ✅ DAY 5 - Problems Covered
+
+### 🔗 **Singly Linked List**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 1 | Node & List Class Definition | 🟢 Easy | SLL Basics | ✅ |
+| 2 | Prepend Operation (Insert at Start) | 🟢 Easy | Insertion | ✅ |
+| 3 | Append Operation (Insert at End) | 🟡 Medium | Traversal & Insertion | ✅ |
+| 4 | Delete from Start | 🟢 Easy | Deletion | ✅ |
+| 5 | Delete from End | 🟡 Medium | Complex Deletion | ✅ |
+| 6 | Print/Traverse Linked List | 🟢 Easy | Traversal | ✅ |
+| 7 | Complete Singly LL with All Operations | 🟡 Medium | Full Implementation | ✅ |
+
+### 🔗 **Doubly Linked List**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 8 | Node with Prev & Next Pointers | 🟢 Easy | DLL Basics | ✅ |
+| 9 | Head & Tail Pointers Management | 🟡 Medium | Pointer Handling | ✅ |
+| 10 | Prepend in Doubly LL | 🟡 Medium | Bidirectional Link | ✅ |
+| 11 | Append in Doubly LL | 🟡 Medium | Tail Management | ✅ |
+| 12 | Delete from Start in DLL | 🟡 Medium | Previous Pointer Update | ✅ |
+| 13 | Delete from End in DLL | 🟡 Medium | Bidirectional Deletion | ✅ |
+| 14 | Print Doubly LL | 🟢 Easy | Bidirectional Traversal | ✅ |
+| 15 | Complete Doubly LL Implementation | 🟠 Hard | Full DLL | ✅ |
+
+### 🔗 **Circular Linked List**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 16 | Circular Node Structure | 🟢 Easy | CLL Basics | ✅ |
+| 17 | Circular Link Creation (Last → First) | 🟡 Medium | Circular Connection | ✅ |
+| 18 | Prepend in Circular LL | 🟡 Medium | Head Update | ✅ |
+| 19 | Append in Circular LL | 🟡 Medium | Tail & Head Connection | ✅ |
+| 20 | Delete from Start in CLL | 🟡 Medium | Circular Deletion | ✅ |
+| 21 | Delete from End in CLL | 🟡 Medium | Tail Pointer Update | ✅ |
+| 22 | Print Circular LL (Avoiding Infinite Loop) | 🟡 Medium | Loop Detection | ✅ |
+| 23 | Complete Circular LL Implementation | 🟠 Hard | Full CLL | ✅ |
+
+### 📚 **Stack Data Structure**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 24 | Stack Class & Initialization | 🟢 Easy | Stack Basics | ✅ |
+| 25 | Push Operation | 🟢 Easy | Add to Stack | ✅ |
+| 26 | Pop Operation | 🟢 Easy | Remove from Stack | ✅ |
+| 27 | Peek Operation | 🟢 Easy | View Top Element | ✅ |
+| 28 | isEmpty Check | 🟢 Easy | Stack Status | ✅ |
+| 29 | Print Stack | 🟢 Easy | Stack Display | ✅ |
+| 30 | Stack with Error Handling | 🟡 Medium | Pop from Empty Stack | ✅ |
+| 31 | Multiple Push-Pop Operations | 🟡 Medium | LIFO Behavior | ✅ |
+| 32 | Stack Applications (Theory) | 🟡 Medium | Use Cases | ✅ |
 
 ---
 
