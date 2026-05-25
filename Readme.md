@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
 ![Students](https://img.shields.io/badge/NMIMS-Engineering%20Students-blue?style=for-the-badge)
 ![Batch](https://img.shields.io/badge/Batch-AI%20&%20Cyber%20&%20CSBS-red?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%205-Completed-brightgreen?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%206-Completed-brightgreen?style=for-the-badge)
 ![Training](https://img.shields.io/badge/Training-Ongoing-yellow?style=for-the-badge)
 
 ### 🚀 *Crack DSA with Python – From Logic to Problem Solving!!!*
@@ -67,12 +67,24 @@ Day 5 - Linked List Variants & Stack Data Structure:
 ✅ Circular Linked List - Cyclic Structure & Tail-to-Head Connection
 ✅ Stack - LIFO Principle & Push-Pop Operations
 
-Day 6 - Stack Problems, Queues & Introduction to Trees:
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 0%
+Day 6 - Stack Problems, Queues, Searches, Circular Queue & Binary Trees:
+████████████████████████████████ 100%
 
-⏳ Valid Parentheses Problem - Stack Application
-⏳ Queue Data Structure - FIFO Principle & Operations
-⏳ Trees - Introduction to Tree Concepts & Terminology
+✅ Valid Parentheses Problem - Stack Application
+✅ Queue Data Structure - FIFO Principle & Operations
+✅ Deque (Double-Ended Queue) - List & Collection Implementation
+✅ Linear Search - Sequential Search Algorithm
+✅ Binary Search - Efficient Search Algorithm
+✅ Circular Queue - Advanced Queue Structure
+✅ Binary Tree Fundamentals - Nodes, Edges & Hierarchical Structure
+✅ Binary Search Tree (BST) - Ordered Tree Structure & Properties
+✅ AVL Trees - Self-Balancing Trees & Height Balance
+✅ Red-Black Trees - Balanced Trees with Color Properties
+✅ Complete Binary Trees - All Levels Filled & Last Level Left-Aligned
+✅ Perfect Binary Trees - All Internal Nodes with Two Children
+✅ Skewed Trees - Degenerate Trees (Left & Right Skewed)
+✅ Tree Traversals - Inorder, Preorder, Postorder & Level-Order
+✅ Binary Tree Visual Representations - All Types Covered
 ```
 
 ---
@@ -2266,6 +2278,466 @@ stack1.printStack()
 | 30 | Stack with Error Handling | 🟡 Medium | Pop from Empty Stack | ✅ |
 | 31 | Multiple Push-Pop Operations | 🟡 Medium | LIFO Behavior | ✅ |
 | 32 | Stack Applications (Theory) | 🟡 Medium | Use Cases | ✅ |
+
+---
+
+# 📅 DAY 6: Stack Problems, Queues, Searches & Circular Queue
+
+## 📚 DAY 6 - Topics
+
+<details open>
+<summary><h3>📚 Valid Parentheses - Stack Application</h3></summary>
+
+> **Valid Parentheses:** A classic problem that uses Stack to validate if parentheses, brackets, and braces are properly matched and closed.
+
+### Problem Overview
+
+- Check if all opening brackets have corresponding closing brackets
+- Brackets must be closed in the correct order
+- Using Stack's LIFO property for efficient matching
+
+</details>
+
+---
+
+<details open>
+<summary><h3>📦 Queue Data Structure - FIFO Principle</h3></summary>
+
+> **Queue:** A linear data structure that follows the First-In-First-Out (FIFO) principle where elements are added at the rear and removed from the front.
+
+### Queue Characteristics
+- **Enqueue:** Add element to rear
+- **Dequeue:** Remove element from front
+- **Peek:** View front element without removing
+- **isEmpty:** Check if queue is empty
+
+### Implementation Methods
+- List-based implementation
+- Collections module (deque import)
+
+</details>
+
+---
+
+<details open>
+<summary><h3>↔️ Deque (Double-Ended Queue)</h3></summary>
+
+> **Deque:** A specialized queue that allows insertion and deletion from both ends (front and rear).
+
+### Deque Operations
+- **Append:** Add to right/rear
+- **AppendLeft:** Add to left/front
+- **Pop:** Remove from right/rear
+- **PopLeft:** Remove from left/front
+
+### Implementation
+- Using `collections.deque` for optimized performance
+- List-based custom implementation
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔍 Linear Search Algorithm</h3></summary>
+
+> **Linear Search:** A simple search algorithm that scans through elements sequentially until the target is found or end of array is reached.
+
+### Characteristics
+- **Time Complexity:** O(n) - Linear
+- **Space Complexity:** O(1) - Constant
+- **Best for:** Unsorted arrays, small datasets
+- **Simplicity:** Easy to implement and understand
+
+### Linear Search Steps
+1. Start from first element
+2. Compare with target value
+3. Move to next element if not found
+4. Return index if found, -1 if not found
+
+</details>
+
+---
+
+<details open>
+<summary><h3>⚡ Binary Search Algorithm</h3></summary>
+
+> **Binary Search:** An efficient search algorithm that divides the sorted array into halves and eliminates half of the remaining elements with each comparison.
+
+### Characteristics
+- **Time Complexity:** O(log n) - Logarithmic
+- **Space Complexity:** O(1) - Constant
+- **Requirement:** Array must be sorted
+- **Efficiency:** Much faster than Linear Search for large datasets
+
+### Binary Search Steps
+1. Set left and right pointers
+2. Find mid element
+3. Compare mid with target
+4. Eliminate left or right half based on comparison
+5. Repeat until found or boundaries cross
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔄 Circular Queue</h3></summary>
+
+> **Circular Queue:** An advanced queue implementation where the rear element connects to the front element, forming a circle. This optimizes space utilization.
+
+### Circular Queue Advantages
+- **Efficient Space Usage:** Reuses empty spaces left by dequeued elements
+- **No Wasted Memory:** Unlike linear queue where front pointer moves
+- **Fixed Size:** Better for memory management
+
+### Circular Queue Operations
+- **Enqueue:** Add element to rear (with wraparound)
+- **Dequeue:** Remove element from front (with wraparound)
+- **Peek:** View front element
+- **isEmpty:** Check if queue is empty
+- **isFull:** Check if queue is full (in fixed-size implementation)
+
+### Key Concepts
+- **Front Pointer:** Points to first element
+- **Rear Pointer:** Points to last element
+- **Wraparound:** When pointers reach end, they wrap to beginning
+- **Condition Check:** (rear + 1) % size == front indicates full queue
+
+</details>
+
+---
+
+## ✅ DAY 6 - Problems Covered
+
+### 📚 **Stack Application - Valid Parentheses**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 1 | Valid Parentheses using Stack | 🟡 Medium | Stack LIFO Property | ✅ |
+
+### 📦 **Queue Data Structure**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 2 | Basic Queue Implementation | 🟢 Easy | Queue Basics | ✅ |
+| 3 | Enqueue Operation | 🟢 Easy | Add to Rear | ✅ |
+| 4 | Dequeue Operation | 🟢 Easy | Remove from Front | ✅ |
+| 5 | Peek Operation | 🟢 Easy | View Front Element | ✅ |
+| 6 | isEmpty Check | 🟢 Easy | Queue Status | ✅ |
+| 7 | Complete Queue Implementation (List-based) | 🟡 Medium | Full Implementation | ✅ |
+
+### ↔️ **Deque (Double-Ended Queue)**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 8 | Deque with collections.deque | 🟢 Easy | Collection Module | ✅ |
+| 9 | Append & AppendLeft Operations | 🟡 Medium | Both Ends Insertion | ✅ |
+| 10 | Pop & PopLeft Operations | 🟡 Medium | Both Ends Deletion | ✅ |
+| 11 | Complete Deque Implementation (List-based) | 🟡 Medium | Custom Deque | ✅ |
+
+### 🔍 **Linear Search Algorithm**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 12 | Linear Search Implementation | 🟢 Easy | Sequential Search | ✅ |
+| 13 | Linear Search with Target Index | 🟡 Medium | Index Finding | ✅ |
+| 14 | Linear Search Time Complexity Analysis | 🟡 Medium | Algorithm Analysis | ✅ |
+
+### ⚡ **Binary Search Algorithm**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 15 | Binary Search Implementation | 🟡 Medium | Divide & Conquer | ✅ |
+| 16 | Binary Search (Iterative) | 🟡 Medium | Loop-based Approach | ✅ |
+| 17 | Binary Search (Recursive) | 🟠 Hard | Recursion & Search | ✅ |
+| 18 | Binary Search Time Complexity Analysis | 🟡 Medium | O(log n) Complexity | ✅ |
+
+### 🔄 **Circular Queue**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 19 | Circular Queue Structure Design | 🟢 Easy | CQ Basics | ✅ |
+| 20 | Enqueue in Circular Queue | 🟡 Medium | Wraparound Logic | ✅ |
+| 21 | Dequeue in Circular Queue | 🟡 Medium | Front Pointer Movement | ✅ |
+| 22 | Peek in Circular Queue | 🟢 Easy | View Element | ✅ |
+| 23 | isEmpty & isFull Check | 🟡 Medium | Queue Status Conditions | ✅ |
+| 24 | Complete Circular Queue Implementation | 🟠 Hard | Full CQ | ✅ |
+
+### 🌳 **Binary Trees - Theory & Visual Representations**
+
+## 📚 **Binary Tree Fundamentals**
+
+> **Binary Tree:** A hierarchical data structure where each node has at most two children (left and right).
+
+#### **Key Concepts**
+- **Node:** A unit containing data and links to child nodes
+- **Root:** The topmost node of the tree
+- **Leaf:** A node with no children
+- **Parent & Child:** Hierarchical relationship between nodes
+- **Edge:** Connection between parent and child nodes
+- **Height:** Number of edges from node to deepest leaf
+- **Depth:** Number of edges from root to node
+
+### **Types of Binary Trees**
+
+#### **1️⃣ Binary Search Tree (BST)**
+A binary tree where:
+- Left child value < Parent value
+- Right child value > Parent value
+- Used for efficient searching, insertion, and deletion
+
+```mermaid
+graph TD
+    A["50"]
+    B["30"]
+    C["70"]
+    D["20"]
+    E["40"]
+    F["60"]
+    G["80"]
+    
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+    
+    style A fill:#FFB6C1
+    style B fill:#87CEEB
+    style C fill:#87CEEB
+    style D fill:#90EE90
+    style E fill:#90EE90
+    style F fill:#90EE90
+    style G fill:#90EE90
+```
+
+---
+
+#### **2️⃣ Complete Binary Tree**
+All levels are completely filled except possibly the last level, which is filled from left to right.
+
+```mermaid
+graph TD
+    A["1"]
+    B["2"]
+    C["3"]
+    D["4"]
+    E["5"]
+    F["6"]
+    
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    
+    style A fill:#FFD700
+    style B fill:#FFD700
+    style C fill:#FFD700
+    style D fill:#FFA500
+    style E fill:#FFA500
+    style F fill:#FFA500
+```
+
+---
+
+#### **3️⃣ Perfect Binary Tree**
+All internal nodes have exactly two children, and all leaf nodes are at the same level.
+
+```mermaid
+graph TD
+    A["1"]
+    B["2"]
+    C["3"]
+    D["4"]
+    E["5"]
+    F["6"]
+    G["7"]
+    
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+    
+    style A fill:#FF69B4
+    style B fill:#FF69B4
+    style C fill:#FF69B4
+    style D fill:#FFB6C1
+    style E fill:#FFB6C1
+    style F fill:#FFB6C1
+    style G fill:#FFB6C1
+```
+
+---
+
+#### **4️⃣ Left Skewed Tree**
+Each node has only a left child.
+
+```mermaid
+graph TD
+    A["1"]
+    B["2"]
+    C["3"]
+    D["4"]
+    
+    A --> B
+    B --> C
+    C --> D
+    
+    style A fill:#87CEEB
+    style B fill:#87CEEB
+    style C fill:#87CEEB
+    style D fill:#87CEEB
+```
+
+---
+
+#### **5️⃣ Right Skewed Tree**
+Each node has only a right child.
+
+```mermaid
+graph TD
+    A["1"]
+    B["2"]
+    C["3"]
+    D["4"]
+    
+    A --> B
+    B --> C
+    C --> D
+    
+    style A fill:#90EE90
+    style B fill:#90EE90
+    style C fill:#90EE90
+    style D fill:#90EE90
+```
+
+---
+
+#### **6️⃣ AVL Tree (Self-Balancing)**
+A binary search tree where the height difference between left and right subtrees is at most 1.
+
+```mermaid
+graph TD
+    A["50"]
+    B["30"]
+    C["70"]
+    D["20"]
+    E["40"]
+    F["60"]
+    G["80"]
+    
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+    
+    style A fill:#FF6B6B
+    style B fill:#4ECDC4
+    style C fill:#4ECDC4
+    style D fill:#FFE66D
+    style E fill:#FFE66D
+    style F fill:#FFE66D
+    style G fill:#FFE66D
+```
+
+---
+
+#### **7️⃣ Red-Black Tree**
+A self-balancing binary search tree with color properties (Red/Black nodes).
+
+```mermaid
+graph TD
+    A["50<br/><b style='color:white;'>Black</b>"]
+    B["30<br/><b style='color:white;'>Red</b>"]
+    C["70<br/><b style='color:white;'>Red</b>"]
+    D["20<br/><b style='color:white;'>Black</b>"]
+    E["40<br/><b style='color:white;'>Black</b>"]
+    F["60<br/><b style='color:white;'>Black</b>"]
+    G["80<br/><b style='color:white;'>Black</b>"]
+    
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    C --> F
+    C --> G
+    
+    style A fill:#000000,color:#fff
+    style B fill:#FF4444,color:#fff
+    style C fill:#FF4444,color:#fff
+    style D fill:#000000,color:#fff
+    style E fill:#000000,color:#fff
+    style F fill:#000000,color:#fff
+    style G fill:#000000,color:#fff
+```
+
+---
+
+### **Tree Traversals**
+
+#### **1️⃣ Inorder Traversal (Left → Root → Right)**
+Used for BST to get elements in sorted order.
+
+**Example Tree:**
+```
+      50
+     /  \
+    30   70
+   / \
+  20  40
+```
+
+**Inorder Sequence:** `20 → 30 → 40 → 50 → 70`
+
+---
+
+#### **2️⃣ Preorder Traversal (Root → Left → Right)**
+Used to copy the tree.
+
+**Preorder Sequence:** `50 → 30 → 20 → 40 → 70`
+
+---
+
+#### **3️⃣ Postorder Traversal (Left → Right → Root)**
+Used to delete the tree.
+
+**Postorder Sequence:** `20 → 40 → 30 → 70 → 50`
+
+---
+
+#### **4️⃣ Level-Order Traversal (BFS)**
+Visit nodes level by level from left to right.
+
+```mermaid
+graph TD
+    A["50<br/>Level 0"]
+    B["30<br/>Level 1"]
+    C["70<br/>Level 1"]
+    D["20<br/>Level 2"]
+    E["40<br/>Level 2"]
+    
+    A --> B
+    A --> C
+    B --> D
+    B --> E
+    
+    style A fill:#FFD700
+    style B fill:#87CEEB
+    style C fill:#87CEEB
+    style D fill:#90EE90
+    style E fill:#90EE90
+```
+
+**Level-Order Sequence:** `50 → 30 → 70 → 20 → 40`
+
+---
 
 ---
 

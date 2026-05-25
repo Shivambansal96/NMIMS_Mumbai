@@ -189,11 +189,11 @@
 #     print("Target is NOT present in the list")
 
 
-    
+
 # # # # # Binary Search
 
 # def binarySearch(arr, target):
-        
+
 #     start = 0
 #     end = len(arr) - 1
 
@@ -203,7 +203,7 @@
 
 #         if(arr[mid] == target):
 #             return mid
-        
+
 #         elif(arr[mid] > target):
 #             end = mid - 1
 
