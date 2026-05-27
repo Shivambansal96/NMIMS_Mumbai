@@ -165,8 +165,8 @@ class BST:
             return
 
         self.postOrder(root.left)
-        print(root.data, end=" ")
         self.postOrder(root.right)
+        print(root.data, end=" ")
 
     def heightOfTree(self, root):
 
@@ -220,6 +220,86 @@ class BST:
         while current.left is not None:
             current = current.left
 
-        return current.data
+        return current
+    
+
+    def delete(self, root, val):
+
+        if root is None:
+            return None
+        
+        if (val < root.data):
+            root.left = self.delete(root.left, val)
+
+        elif(val > root.data):
+            root.right = self.delete(root.right, val)
+
+        else:  # Node Found
+
+            # 0 Child
+            if root.left is None and root.right is None: 
+                return None
+            
+            # 1 Child
+
+            if root.left is None:
+                return root.right
+            
+            if root.right is None:
+                return root.left
+
+            # 2 child
+            iso = self.smallestValue(root.right)
+            root.data = iso.data
+            self.delete(root.right, iso.data)
+
+
+        return root
+
+bst = BST()
+
+root = None
+arr = [20, 10, 30, 5, 15, 25, 40, 2, 8, 12, 18, 22, 28, 35, 50, 32, 38]
+for i in arr:
+    root = bst.insert(root, i)
+
+
+bst.inOrder(root)
+print()
+# root = bst.delete(root, 8)
+root = bst.delete(root, 30)
+bst.inOrder(root)
+print()
+
+
+
+# bst.preOrder(root)
+# print()
+# bst.inOrder(root)
+# print()
+# bst.postOrder(root)
+
+
+
+# root = bst.insert(20)
+# root = bst.insert(10)
+# root = bst.insert(30)
+# root = bst.insert(5)
+# root = bst.insert(15)
+# root = bst.insert(25)
+# root = bst.insert(40)
+# root = bst.insert(2)
+# root = bst.insert(8)
+# root = bst.insert(12)
+# root = bst.insert(18)
+# root = bst.insert(22)
+# root = bst.insert(28)
+# root = bst.insert(35)
+# root = bst.insert(50)
+# root = bst.insert(32)
+# root = bst.insert(38)
+
+    
+
     
     
