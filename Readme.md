@@ -6,8 +6,8 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge)
 ![Students](https://img.shields.io/badge/NMIMS-Engineering%20Students-blue?style=for-the-badge)
 ![Batch](https://img.shields.io/badge/Batch-AI%20&%20Cyber%20&%20CSBS-red?style=for-the-badge)
-![Progress](https://img.shields.io/badge/Day%206-Completed-brightgreen?style=for-the-badge)
-![Training](https://img.shields.io/badge/Training-Ongoing-yellow?style=for-the-badge)
+![Progress](https://img.shields.io/badge/Day%209-Completed-olive?style=for-the-badge)
+![Training](https://img.shields.io/badge/Training-Completed-brightgreen?style=for-the-badge)
 
 ### 🚀 *Crack DSA with Python – From Logic to Problem Solving!!!*
 
@@ -16,7 +16,7 @@
 **Welcome to your comprehensive Python learning journey!**
 Everything you need to become proficient in Python and master the core concepts of programming.
 
-[📚 Topics Covered](#-day-1-topics) • [💻 Problems Solved](#-day-3---problems-covered) • [🎯 What's Next](#-day-4-recursion-backtracking--linked-lists)
+[📚 Topics Covered](#-day-1-topics) • [💻 Problems Solved](#-day-1---problems-covered) • [          🎯 Student's Work Call Stack Creation 🎯]()
 
 ---
 
@@ -57,34 +57,6 @@ Day 4 - Recursion, Backtracking & Linked Lists:
 ✅ Recursion - Function Calling Itself & Divide & Conquer
 ✅ Backtracking - Try & Revert Approach & Constraint Satisfaction
 ✅ Linked Lists - Node-based Data Structure & Pointer Manipulation
-
-Day 5 - Linked List Variants & Stack Data Structure:
-████████████████████████████████ 100%
-
-
-✅ Singly Linked List - Single Direction Traversal & Operations
-✅ Doubly Linked List - Bidirectional Traversal & Dual Pointers
-✅ Circular Linked List - Cyclic Structure & Tail-to-Head Connection
-✅ Stack - LIFO Principle & Push-Pop Operations
-
-Day 6 - Stack Problems, Queues, Searches, Circular Queue & Binary Trees:
-████████████████████████████████ 100%
-
-✅ Valid Parentheses Problem - Stack Application
-✅ Queue Data Structure - FIFO Principle & Operations
-✅ Deque (Double-Ended Queue) - List & Collection Implementation
-✅ Linear Search - Sequential Search Algorithm
-✅ Binary Search - Efficient Search Algorithm
-✅ Circular Queue - Advanced Queue Structure
-✅ Binary Tree Fundamentals - Nodes, Edges & Hierarchical Structure
-✅ Binary Search Tree (BST) - Ordered Tree Structure & Properties
-✅ AVL Trees - Self-Balancing Trees & Height Balance
-✅ Red-Black Trees - Balanced Trees with Color Properties
-✅ Complete Binary Trees - All Levels Filled & Last Level Left-Aligned
-✅ Perfect Binary Trees - All Internal Nodes with Two Children
-✅ Skewed Trees - Degenerate Trees (Left & Right Skewed)
-✅ Tree Traversals - Inorder, Preorder, Postorder & Level-Order
-✅ Binary Tree Visual Representations - All Types Covered
 ```
 
 ---
@@ -1036,50 +1008,71 @@ b1.stop()   # Bike engine stopped
 
 ---
 
-## ✅ DAY 2 - Problems Covered
 
-### 📌 **Encapsulation**
+## 📚 DAY 2 - Problems Covered
 
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 1 | Private Attributes & Name Mangling | 🟢 Easy | Data Hiding | ✅ |
-| 2 | Private Methods & Access Control | 🟢 Easy | Method Privacy | ✅ |
-| 3 | Password Protection System | 🟡 Medium | Secure Access | ✅ |
-| 4 | Banking Account - Debit & Credit Operations | 🟡 Medium | Real-world Encapsulation | ✅ |
-| 5 | Getter & Setter Methods | 🟢 Easy | Access Methods | ✅ |
 
-### 🏛️ **Inheritance**
+### 📋 **Loops & Lists**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 6 | Single Level Inheritance | 🟢 Easy | Basic Inheritance | ✅ |
-| 7 | Multi-Level Inheritance | 🟡 Medium | Chain of Inheritance | ✅ |
-| 8 | Hierarchical Inheritance | 🟡 Medium | Multiple Child Classes | ✅ |
-| 9 | Hybrid Inheritance | 🟡 Medium | Mixed Inheritance | ✅ |
-| 10 | Multiple Inheritance | 🟡 Medium | Diamond Problem | ✅ |
-| 11 | Method Overriding in Child Class | 🟡 Medium | Override Methods | ✅ |
-| 12 | super() Function Usage | 🟡 Medium | Parent Method Call | ✅ |
-| 13 | Employee-Engineer Hierarchy | 🟠 Hard | Complex Inheritance | ✅ |
+| 1 | Create Array of Squares (1 to N) | 🟢 Easy | Loops & Lists | ✅ |
+| 2 | List Referencing & Mutation | 🟢 Easy | List References | ✅ |
+| 3 | Array Element Access & Assignment | 🟢 Easy | List Indexing | ✅ |
 
-### 🎭 **Polymorphism**
+### 📌 **Tuples**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 14 | Method with Same Name Different Implementation | 🟢 Easy | Polymorphic Methods | ✅ |
-| 15 | Animal Sound System | 🟡 Medium | Runtime Polymorphism | ✅ |
-| 16 | Polymorphic Function Calling | 🟡 Medium | Dynamic Dispatch | ✅ |
-| 17 | Multiple Classes, Single Interface | 🟡 Medium | Interface Design | ✅ |
+| 4 | Tuple Index & Count Methods | 🟢 Easy | Tuple Methods | ✅ |
+| 5 | Sort Tuple using sorted() & list.sort() | 🟢 Easy | Sorting | ✅ |
+| 6 | Tuple Traversal & Iteration | 🟢 Easy | Iteration | ✅ |
+| 7 | Separate Even & Odd Numbers from Tuple | 🟢 Easy | Tuple Processing | ✅ |
+| 8 | Count Even and Odd Elements | 🟢 Easy | Counting | ✅ |
 
-### 🔽 **Abstraction**
+### 🎯 **Sets**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 18 | Abstract Base Class Definition | 🟢 Easy | ABC Basics | ✅ |
-| 19 | Abstract Methods Implementation | 🟢 Easy | @abstractmethod | ✅ |
-| 20 | Animal Walk System | 🟡 Medium | Enforced Interface | ✅ |
-| 21 | Multiple Abstract Methods | 🟡 Medium | Complex Abstraction | ✅ |
-| 22 | Cannot Instantiate Abstract Class | 🟢 Easy | Abstraction Rule | ✅ |
-| 23 | Vehicle Management System | 🟠 Hard | Real-world Abstraction | ✅ |
+| 9 | Create Set & Remove Duplicates with pop() | 🟢 Easy | Set Operations | ✅ |
+| 10 | Set Union & Intersection Operations | 🟢 Easy | Set Methods | ✅ |
+| 11 | Count Unique Elements (Duplicate Removal) | 🟢 Easy | Uniqueness | ✅ |
+| 12 | Find Duplicates - Nested Loop with Set | 🟡 Medium | Nested Loops | ✅ |
+| 13 | Find Duplicates - Array List Approach | 🟡 Medium | List Methods | ✅ |
+| 14 | Find Duplicates - Visited Set (Optimized) | 🟡 Medium | Hash Set | ✅ |
+
+### 🗂️ **Dictionary**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 15 | Create Nested Dictionary | 🟢 Easy | Dictionary Basics | ✅ |
+| 16 | Dictionary Access (keys(), values(), items(), get()) | 🟢 Easy | Dictionary Methods | ✅ |
+| 17 | Dictionary Update Operations | 🟢 Easy | Dictionary Modification | ✅ |
+| 18 | Dictionary with User Input | 🟢 Easy | Input Handling | ✅ |
+| 19 | Create Dictionary with Computed Values | 🟢 Easy | Loop-based Creation | ✅ |
+| 20 | Count Frequency of Array Elements | 🟡 Medium | Frequency Counting | ✅ |
+| 21 | Frequency Map using Dictionary | 🟡 Medium | Dictionary Counting | ✅ |
+
+### ⚙️ **Functions**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 22 | Basic Function - Addition Function | 🟢 Easy | Function Definition | ✅ |
+
+### 🏗️ **Object-Oriented Programming - Classes & Objects**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 23 | Basic Class Structure with Class Variables | 🟢 Easy | Class Basics | ✅ |
+| 24 | Class Instance Creation & Access | 🟢 Easy | Object Creation | ✅ |
+| 25 | Non-Parameterized Constructor | 🟢 Easy | Constructor | ✅ |
+| 26 | Parameterized Constructor | 🟢 Easy | Constructor Parameters | ✅ |
+| 27 | Parameterized Constructor with Default Values | 🟢 Easy | Default Parameters | ✅ |
+| 28 | Object Deletion (del keyword) | 🟢 Easy | Object Lifecycle | ✅ |
+| 29 | Instance Methods in Class | 🟢 Easy | Methods | ✅ |
+| 30 | Student Grades - Calculate Average | 🟡 Medium | Instance Variables | ✅ |
+| 31 | Circle Class - Area & Perimeter Calculation | 🟡 Medium | Real-world Application | ✅ |
+| 32 | Static Methods in Class | 🟢 Easy | Static Methods | ✅ |
 
 ---
 
@@ -1432,8 +1425,8 @@ $       - End of string
 
 # 📅 DAY 4: Recursion, Backtracking & Linked Lists
 
-## 📚 DAY 4 - Topics
-    `
+## � DAY 4 - Topics
+
 <details open>
 <summary><h3>🎯 Recursion - Function Calling Itself</h3></summary>
 
@@ -1737,489 +1730,315 @@ In brute force approach:
 
 ---
 
-# 📅 DAY 5: Linked List Variants & Stack Data Structure
+# 📅 DAY 5: Stack and Queue
 
 ## 📚 DAY 5 - Topics
 
 <details open>
-<summary><h3>🔗 Singly Linked List - Single Direction Traversal</h3></summary>
+<summary><h3>📚 Stack - LIFO Structure & Push-Pop Operations</h3></summary>
 
-> **Singly Linked List (SLL):** A linear data structure where each node contains data and a pointer to the next node. Traversal is unidirectional (forward only).
+> **Stack:** A linear data structure that follows LIFO (Last In First Out) principle. The last element added is the first one to be removed. Elements are pushed (added) to the top and popped (removed) from the top.
 
-### Node & List Structure
+### 1️⃣ **Stack Implementation & Basic Operations**
 
-```
-Structure: [Data | Next] → [Data | Next] → [Data | None]
-           ↓
-        Node(4)  →  Node(10)  →  Node(100)  →  None
-```
-
-### 1️⃣ **Singly Linked List Operations**
-
-#### ➕ Prepend (Insert at Beginning)
+#### 🏗️ Stack Class Definition
 
 ```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-class LL:
+class Stack:
     def __init__(self):
-        self.head = None
-
-    def prepend(self, data):
-        newNode = Node(data)
-        if self.head is not None:
-            newNode.next = self.head
-        self.head = newNode
-
-    def printList(self):
-        currentNode = self.head
-        while currentNode is not None:
-            print(currentNode.data, end=" -> ")
-            currentNode = currentNode.next
-        print(None)
-
-list1 = LL()
-list1.prepend(2)
-list1.prepend(42)
-list1.prepend(123)
-list1.printList()  # 123 -> 42 -> 2 -> None
-```
-
-#### ➕ Append (Insert at End)
-
-```python
-def append(self, data):
-    newNode = Node(data)
+        self.items = []  # Empty list to store stack elements
     
-    if self.head is None:
-        self.head = newNode
-    else:
-        currentNode = self.head
-        while currentNode.next is not None:
-            currentNode = currentNode.next
-        currentNode.next = newNode
-
-list1 = LL()
-list1.append(98)
-list1.append(42)
-list1.append(7)
-list1.printList()  # 98 -> 42 -> 7 -> None
-```
-
-#### ❌ Delete from Start
-
-```python
-def deleteStart(self):
-    if self.head is None:
-        print("Linked List is Empty!!!")
-    else:
-        self.head = self.head.next
-
-list1 = LL()
-list1.append(1)
-list1.append(2)
-list1.append(3)
-list1.deleteStart()
-list1.printList()  # 2 -> 3 -> None
-```
-
-#### ❌ Delete from End
-
-```python
-def deleteEnd(self):
-    if self.head is None:
-        print("LL is Empty !!!")
-    elif self.head.next is None:
-        self.head = None
-    else:
-        currentNode = self.head
-        while currentNode.next.next is not None:
-            currentNode = currentNode.next
-        currentNode.next = None
-
-list1 = LL()
-list1.append(1)
-list1.append(2)
-list1.append(3)
-list1.deleteEnd()
-list1.printList()  # 1 -> 2 -> None
-```
-
-</details>
-
----
-
-<details open>
-<summary><h3>🔗 Doubly Linked List - Bidirectional Traversal</h3></summary>
-
-> **Doubly Linked List (DLL):** Each node contains data, a pointer to the next node, and a pointer to the previous node. Enables bidirectional traversal.
-
-### Node & List Structure
-
-```
-Structure: [Prev | Data | Next] ↔ [Prev | Data | Next]
-           ↓
-        Node(4) ↔ Node(10) ↔ Node(100)
-        ↑ None    ↑            ↑ None
-```
-
-### 2️⃣ **Doubly Linked List Operations**
-
-#### ➕ Prepend (Insert at Beginning)
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-        self.prev = None
-
-class LL:
-    def __init__(self):
-        self.head = None
-        self.tail = None
-
-    def prepend(self, data):
-        newNode = Node(data)
-        
-        if self.head is None:
-            self.head = newNode
-            self.tail = newNode
-        else:
-            newNode.next = self.head
-            self.head.prev = newNode
-            self.head = newNode
-
-    def printList(self):
-        currentNode = self.head
-        while currentNode is not None:
-            print(currentNode.data, end=" <-> ")
-            currentNode = currentNode.next
-        print(None)
-
-list1 = LL()
-list1.prepend(2)
-list1.prepend(13)
-list1.prepend(99)
-list1.printList()  # 99 <-> 13 <-> 2 <-> None
-```
-
-#### ➕ Append (Insert at End)
-
-```python
-def append(self, data):
-    newNode = Node(data)
-    
-    if self.head is None:
-        self.head = newNode
-        self.tail = newNode
-    else:
-        self.tail.next = newNode
-        newNode.prev = self.tail
-        self.tail = newNode
-
-list1 = LL()
-list1.append(10)
-list1.append(20)
-list1.append(30)
-list1.printList()  # 10 <-> 20 <-> 30 <-> None
-```
-
-#### ❌ Delete from Start
-
-```python
-def deleteStart(self):
-    if self.head is None:
-        print("Linked List is Empty!!!")
-    elif self.head.next is None:
-        self.head = None
-        self.tail = None
-    else:
-        self.head = self.head.next
-        self.head.prev = None
-
-list1 = LL()
-list1.append(1)
-list1.append(2)
-list1.append(3)
-list1.deleteStart()
-list1.printList()  # 2 <-> 3 <-> None
-```
-
-#### ❌ Delete from End
-
-```python
-def deleteEnd(self):
-    if self.head is None:
-        print("LL is Empty !!!")
-    elif self.head == self.tail:
-        self.head = None
-        self.tail = None
-    else:
-        self.tail = self.tail.prev
-        self.tail.next = None
-
-list1 = LL()
-list1.append(1)
-list1.append(2)
-list1.append(3)
-list1.deleteEnd()
-list1.printList()  # 1 <-> 2 <-> None
-```
-
-</details>
-
----
-
-<details open>
-<summary><h3>🔗 Circular Linked List - Cyclic Structure</h3></summary>
-
-> **Circular Linked List (CLL):** The last node points back to the first node, creating a circular structure. Can be singly or doubly circular.
-
-### Node & List Structure
-
-```
-Structure: [Data | Next] → [Data | Next] → (loops back to first)
-           ↓
-        Node(4) → Node(10) → Node(100) → (back to Node(4))
-```
-
-### 3️⃣ **Circular Linked List Operations**
-
-#### ➕ Prepend (Insert at Beginning)
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-        self.prev = None
-
-class LL:
-    def __init__(self):
-        self.head = None
-        self.tail = None
-
-    def prepend(self, data):
-        newNode = Node(data)
-        
-        if self.head is None:
-            self.head = newNode
-            self.tail = newNode
-        else:
-            newNode.next = self.head
-            newNode.prev = self.tail
-            self.head.prev = newNode
-            self.tail.next = newNode
-            self.head = newNode
-
-    def printList(self):
-        currentNode = self.head
-        
-        while currentNode is not self.tail:
-            print(currentNode.data, end=" <-> ")
-            currentNode = currentNode.next
-        
-        if self.head is not None:
-            print(currentNode.data, end=" <-> ")
-        print("(back to head)")
-
-list1 = LL()
-list1.prepend(242)
-list1.prepend(100)
-list1.prepend(2)
-list1.printList()  # 2 <-> 100 <-> 242 <-> (back to head)
-```
-
-#### ➕ Append (Insert at End)
-
-```python
-def append(self, data):
-    newNode = Node(data)
-    
-    if self.head is None:
-        self.head = newNode
-        self.tail = newNode
-    else:
-        newNode.next = self.head
-        newNode.prev = self.tail
-        self.head.prev = newNode
-        self.tail.next = newNode
-        self.tail = newNode
-
-list1 = LL()
-list1.append(10)
-list1.append(20)
-list1.append(30)
-list1.printList()  # 10 <-> 20 <-> 30 <-> (back to head)
-```
-
-#### ❌ Delete from Start
-
-```python
-def deleteStart(self):
-    if self.head is None:
-        print("Linked List is Empty!!!")
-    elif self.head.next is None:
-        self.head = None
-        self.tail = None
-    else:
-        self.head = self.head.next
-        self.head.prev = self.tail
-        self.tail.next = self.head
-
-list1 = LL()
-list1.append(1)
-list1.append(2)
-list1.append(3)
-list1.deleteStart()
-list1.printList()  # 2 <-> 3 <-> (back to head)
-```
-
-#### ❌ Delete from End
-
-```python
-def deleteEnd(self):
-    if self.head is None:
-        print("LL is Empty !!!")
-    elif self.head == self.tail:
-        self.head = None
-        self.tail = None
-    else:
-        self.tail = self.tail.prev
-        self.tail.next = self.head
-        self.head.prev = self.tail
-
-list1 = LL()
-list1.append(1)
-list1.append(2)
-list1.append(3)
-list1.deleteEnd()
-list1.printList()  # 1 <-> 2 <-> (back to head)
-```
-
-</details>
-
----
-
-<details open>
-<summary><h3>📚 Stack - LIFO Data Structure</h3></summary>
-
-> **Stack:** A Last-In-First-Out (LIFO) data structure where elements are added and removed from the same end (top). Think of a stack of plates – the last plate placed is the first one removed.
-
-### Stack Structure
-
-```
-Visual Representation (Push 1, 2, 3, 4):
-
-    ┌─────┐
-    │  4  │  ← Top (Last In)
-    ├─────┤
-    │  3  │
-    ├─────┤
-    │  2  │
-    ├─────┤
-    │  1  │
-    └─────┘
-```
-
-### 4️⃣ **Stack Operations**
-
-#### Push (Add to Top)
-
-```python
-class Stk:
-    def __init__(self):
-        self.stk = []
-
     def push(self, data):
-        self.stk.append(data)
-
-stack1 = Stk()
-stack1.push(45)
-stack1.push(12)
-stack1.push(99)
-# Stack: [45, 12, 99]
-```
-
-#### Pop (Remove from Top)
-
-```python
-def pop(self):
-    if self.isEmpty():
-        print("Stack is Empty !!!")
-        return
+        # Add element to top of stack
+        self.items.append(data)
+        print(f"Pushed {data}")
     
-    topElement = self.stk[-1]
-    self.stk.remove(topElement)
-    return topElement
+    def pop(self):
+        # Remove and return top element
+        if not self.isEmpty():
+            return self.items.pop()
+        else:
+            print("Stack is empty!")
+            return None
+    
+    def peek(self):
+        # View top element without removing
+        if not self.isEmpty():
+            return self.items[-1]
+        else:
+            print("Stack is empty!")
+            return None
+    
+    def isEmpty(self):
+        # Check if stack is empty
+        return len(self.items) == 0
+    
+    def display(self):
+        # Print all stack elements
+        if self.isEmpty():
+            print("Stack is empty!")
+        else:
+            print(f"Stack: {self.items}")
 
-stack1 = Stk()
-stack1.push(1)
-stack1.push(2)
-stack1.push(3)
-stack1.pop()  # Removes 3
-# Stack: [1, 2]
+# Example usage
+s = Stack()
+s.push(10)      # Pushed 10
+s.push(20)      # Pushed 20
+s.push(30)      # Pushed 30
+s.display()     # Stack: [10, 20, 30]
+print(f"Top element: {s.peek()}")  # Top element: 30
+print(f"Popped: {s.pop()}")        # Popped: 30
+s.display()     # Stack: [10, 20]
 ```
 
-#### Peek (View Top Element)
+#### 🔄 Stack Operations Example
 
 ```python
-def peek(self):
-    return self.stk[-1]
+s = Stack()
 
-stack1 = Stk()
-stack1.push(10)
-stack1.push(20)
-top = stack1.peek()
-print(top)  # 20 (doesn't remove)
+# Push multiple elements
+elements = [5, 10, 15, 20, 25]
+for elem in elements:
+    s.push(elem)
+
+print("Stack after pushing elements:")
+s.display()  # Stack: [5, 10, 15, 20, 25]
+
+# Pop operations
+print(f"\nPopped: {s.pop()}")  # Popped: 25
+print(f"\nPopped: {s.pop()}")  # Popped: 20
+print(f"Peek: {s.peek()}")   # Peek: 15
+
+print("\nStack after popping:")
+s.display()  # Stack: [5, 10, 15]
 ```
 
-#### isEmpty (Check if Empty)
+### 2️⃣ **Valid Parentheses Using Stack**
+
+#### ✅ Parentheses Matching
 
 ```python
-def isEmpty(self):
-    return len(self.stk) == 0
+def isValidParentheses(expr):
+    # Stack to store opening brackets
+    stack = []
+    
+    # Dictionary to match closing with opening brackets
+    matching = {')': '(', '}': '{', ']': '['}
+    
+    for char in expr:
+        if char in matching:  # Closing bracket
+            if not stack or stack[-1] != matching[char]:
+                return False
+            stack.pop()  # Remove matching opening bracket
+        elif char in matching.values():  # Opening bracket
+            stack.append(char)
+    
+    # Valid if stack is empty (all brackets matched)
+    return len(stack) == 0
 
-stack1 = Stk()
-print(stack1.isEmpty())  # True
+# Test cases
+expressions = [
+    "()",           # Valid
+    "([{}])",       # Valid
+    "({[}])",       # Invalid
+    "((()))",       # Valid
+    "([)]",         # Invalid
+]
 
-stack1.push(5)
-print(stack1.isEmpty())  # False
-```
+for expr in expressions:
+    result = isValidParentheses(expr)
+    print(f"{expr}: {'✅ Valid' if result else '❌ Invalid'}")
 
-#### Print Stack
-
-```python
-def printStack(self):
-    for i in self.stk:
-        print(f" | {i}  |")
-        print(" | --- |")
-
-stack1 = Stk()
-stack1.push(45)
-stack1.push(12)
-stack1.push(99)
-stack1.printStack()
 # Output:
-#  | 45  |
-#  | --- |
-#  | 12  |
-#  | --- |
-#  | 99  |
-#  | --- |
+# (): ✅ Valid
+# ([{}]): ✅ Valid
+# ({[}]): ❌ Invalid
+# ((())): ✅ Valid
+# ([)]: ❌ Invalid
 ```
 
-### 🎯 **Stack Applications**
+### 🤔 **Key Questions on Stack**
 
-- **Undo/Redo Functionality** - Browser back button
-- **Expression Evaluation** - Parenthesis matching
-- **Function Call Stack** - Method execution in programs
-- **Depth First Search (DFS)** - Graph traversal
-- **Backtracking Algorithms** - N-Queens, Maze solving
+- What does LIFO stand for and how does it apply to stacks?
+- What are the real-world applications of stacks?
+- What is the time complexity of push, pop, and peek operations?
+- How do we implement stack using linked lists?
+- What is stack overflow and when does it occur?
+- Explain how undo-redo functionality uses stacks?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🎪 Queue - FIFO Structure & Enqueue-Dequeue Operations</h3></summary>
+
+> **Queue:** A linear data structure that follows FIFO (First In First Out) principle. The first element added is the first one to be removed. Elements are enqueued (added) to the rear and dequeued (removed) from the front.
+
+### 3️⃣ **Queue Implementation**
+
+#### 🚗 Queue Class Definition
+
+```python
+class Queue:
+    def __init__(self):
+        self.items = []  # List to store queue elements
+    
+    def enqueue(self, data):
+        # Add element to rear of queue
+        self.items.append(data)
+        print(f"Enqueued {data}")
+    
+    def dequeue(self):
+        # Remove and return front element
+        if not self.isEmpty():
+            return self.items.pop(0)
+        else:
+            print("Queue is empty!")
+            return None
+    
+    def front(self):
+        # View front element without removing
+        if not self.isEmpty():
+            return self.items[0]
+        else:
+            print("Queue is empty!")
+            return None
+    
+    def isEmpty(self):
+        # Check if queue is empty
+        return len(self.items) == 0
+    
+    def display(self):
+        # Print all queue elements
+        if self.isEmpty():
+            print("Queue is empty!")
+        else:
+            print(f"Queue: {self.items}")
+
+# Example usage
+q = Queue()
+q.enqueue(10)   # Enqueued 10
+q.enqueue(20)   # Enqueued 20
+q.enqueue(30)   # Enqueued 30
+q.display()     # Queue: [10, 20, 30]
+print(f"Front element: {q.front()}")  # Front element: 10
+print(f"Dequeued: {q.dequeue()}")     # Dequeued: 10
+q.display()     # Queue: [20, 30]
+```
+
+#### 📊 Queue Operations Example
+
+```python
+q = Queue()
+
+# Enqueue multiple elements
+customers = ["Alice", "Bob", "Charlie", "David"]
+for customer in customers:
+    q.enqueue(customer)
+
+print("Queue of customers:")
+q.display()  # Queue: ['Alice', 'Bob', 'Charlie', 'David']
+
+# Process customers (dequeue)
+print(f"\nServing: {q.dequeue()}")  # Serving: Alice
+print(f"Serving: {q.dequeue()}")  # Serving: Bob
+
+print(f"\nNext customer: {q.front()}")  # Next customer: Charlie
+
+print("\nRemaining queue:")
+q.display()  # Queue: ['Charlie', 'David']
+```
+
+### 4️⃣ **Deque - Double-Ended Queue**
+
+#### 🔀 Deque Implementation (Insert & Delete from Both Ends)
+
+```python
+class Deque:
+    def __init__(self):
+        self.items = []
+    
+    def insertFront(self, data):
+        # Add element to front
+        self.items.insert(0, data)
+        print(f"Inserted {data} at front")
+    
+    def insertRear(self, data):
+        # Add element to rear
+        self.items.append(data)
+        print(f"Inserted {data} at rear")
+    
+    def deleteFront(self):
+        # Remove element from front
+        if not self.isEmpty():
+            return self.items.pop(0)
+        else:
+            print("Deque is empty!")
+            return None
+    
+    def deleteRear(self):
+        # Remove element from rear
+        if not self.isEmpty():
+            return self.items.pop()
+        else:
+            print("Deque is empty!")
+            return None
+    
+    def isEmpty(self):
+        return len(self.items) == 0
+    
+    def display(self):
+        if self.isEmpty():
+            print("Deque is empty!")
+        else:
+            print(f"Deque: {self.items}")
+
+# Example usage
+dq = Deque()
+dq.insertRear(10)       # Inserted 10 at rear
+dq.insertRear(20)       # Inserted 20 at rear
+dq.insertFront(5)       # Inserted 5 at front
+dq.insertFront(1)       # Inserted 1 at front
+dq.display()            # Deque: [1, 5, 10, 20]
+
+print(f"\nDeleted from front: {dq.deleteFront()}")  # Deleted from front: 1
+print(f"Deleted from rear: {dq.deleteRear()}")     # Deleted from rear: 20
+
+dq.display()            # Deque: [5, 10]
+```
+
+#### 🎯 Deque Operations Example
+
+```python
+dq = Deque()
+
+# Build deque from both ends
+dq.insertRear(100)
+dq.insertRear(200)
+dq.insertFront(50)
+dq.insertFront(25)
+
+print("Deque structure:")
+dq.display()            # Deque: [25, 50, 100, 200]
+
+# Process from both ends
+print(f"\nFrom front: {dq.deleteFront()}")  # From front: 25
+print(f"From rear: {dq.deleteRear()}")     # From rear: 200
+
+dq.display()            # Deque: [50, 100]
+```
+
+### 🤔 **Key Questions on Queue & Deque**
+
+- What is the difference between Queue and Stack?
+- What does FIFO stand for and how does it apply to queues?
+- What are practical applications of queues in real life?
+- What is a Deque and when is it used?
+- How is Deque different from Queue?
+- What is the time complexity of queue operations?
+- How do we optimize queue operations using circular arrays?
+- Compare circular queue vs linear queue?
 
 </details>
 
@@ -2227,182 +2046,299 @@ stack1.printStack()
 
 ## ✅ DAY 5 - Problems Covered
 
-### 🔗 **Singly Linked List**
+### 📚 **Stack**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 1 | Node & List Class Definition | 🟢 Easy | SLL Basics | ✅ |
-| 2 | Prepend Operation (Insert at Start) | 🟢 Easy | Insertion | ✅ |
-| 3 | Append Operation (Insert at End) | 🟡 Medium | Traversal & Insertion | ✅ |
-| 4 | Delete from Start | 🟢 Easy | Deletion | ✅ |
-| 5 | Delete from End | 🟡 Medium | Complex Deletion | ✅ |
-| 6 | Print/Traverse Linked List | 🟢 Easy | Traversal | ✅ |
-| 7 | Complete Singly LL with All Operations | 🟡 Medium | Full Implementation | ✅ |
+| 1 | Stack Class Implementation | 🟢 Easy | Stack Basics | ✅ |
+| 2 | Push & Pop Operations | 🟢 Easy | Basic Operations | ✅ |
+| 3 | Peek & isEmpty Methods | 🟢 Easy | Stack Utilities | ✅ |
+| 4 | Display Stack Elements | 🟢 Easy | Traversal | ✅ |
+| 5 | Valid Parentheses Checking | 🟡 Medium | Stack Application | ✅ |
+| 6 | Balanced Brackets Validation | 🟡 Medium | Bracket Matching | ✅ |
+| 7 | Stock Span Problem | 🟡 Medium | Stack Optimization | ✅ |
+| 8 | Next Greater Element | 🟡 Medium | Stack Pattern | ✅ |
+| 9 | Reverse String using Stack | 🟢 Easy | Stack Application | ✅ |
+| 10 | Implement Stack using Linked List | 🟡 Medium | Advanced Implementation | ✅ |
 
-### 🔗 **Doubly Linked List**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 8 | Node with Prev & Next Pointers | 🟢 Easy | DLL Basics | ✅ |
-| 9 | Head & Tail Pointers Management | 🟡 Medium | Pointer Handling | ✅ |
-| 10 | Prepend in Doubly LL | 🟡 Medium | Bidirectional Link | ✅ |
-| 11 | Append in Doubly LL | 🟡 Medium | Tail Management | ✅ |
-| 12 | Delete from Start in DLL | 🟡 Medium | Previous Pointer Update | ✅ |
-| 13 | Delete from End in DLL | 🟡 Medium | Bidirectional Deletion | ✅ |
-| 14 | Print Doubly LL | 🟢 Easy | Bidirectional Traversal | ✅ |
-| 15 | Complete Doubly LL Implementation | 🟠 Hard | Full DLL | ✅ |
-
-### 🔗 **Circular Linked List**
+### 🎪 **Queue & Deque**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 16 | Circular Node Structure | 🟢 Easy | CLL Basics | ✅ |
-| 17 | Circular Link Creation (Last → First) | 🟡 Medium | Circular Connection | ✅ |
-| 18 | Prepend in Circular LL | 🟡 Medium | Head Update | ✅ |
-| 19 | Append in Circular LL | 🟡 Medium | Tail & Head Connection | ✅ |
-| 20 | Delete from Start in CLL | 🟡 Medium | Circular Deletion | ✅ |
-| 21 | Delete from End in CLL | 🟡 Medium | Tail Pointer Update | ✅ |
-| 22 | Print Circular LL (Avoiding Infinite Loop) | 🟡 Medium | Loop Detection | ✅ |
-| 23 | Complete Circular LL Implementation | 🟠 Hard | Full CLL | ✅ |
-
-### 📚 **Stack Data Structure**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 24 | Stack Class & Initialization | 🟢 Easy | Stack Basics | ✅ |
-| 25 | Push Operation | 🟢 Easy | Add to Stack | ✅ |
-| 26 | Pop Operation | 🟢 Easy | Remove from Stack | ✅ |
-| 27 | Peek Operation | 🟢 Easy | View Top Element | ✅ |
-| 28 | isEmpty Check | 🟢 Easy | Stack Status | ✅ |
-| 29 | Print Stack | 🟢 Easy | Stack Display | ✅ |
-| 30 | Stack with Error Handling | 🟡 Medium | Pop from Empty Stack | ✅ |
-| 31 | Multiple Push-Pop Operations | 🟡 Medium | LIFO Behavior | ✅ |
-| 32 | Stack Applications (Theory) | 🟡 Medium | Use Cases | ✅ |
+| 11 | Queue Class Implementation | 🟢 Easy | Queue Basics | ✅ |
+| 12 | Enqueue & Dequeue Operations | 🟢 Easy | Basic Operations | ✅ |
+| 13 | Front & isEmpty Methods | 🟢 Easy | Queue Utilities | ✅ |
+| 14 | Display Queue Elements | 🟢 Easy | Traversal | ✅ |
+| 15 | Deque Implementation | 🟡 Medium | Double-ended Queue | ✅ |
+| 16 | Insert from Both Ends | 🟡 Medium | Deque Operations | ✅ |
+| 17 | Delete from Both Ends | 🟡 Medium | Deque Operations | ✅ |
+| 18 | Circular Queue Implementation | 🟡 Medium | Optimized Queue | ✅ |
+| 19 | Generate Numbers with Given Digits | 🟡 Medium | Queue Application | ✅ |
+| 20 | First Non-Repeating Character | 🟡 Medium | Queue Pattern | ✅ |
 
 ---
 
-# 📅 DAY 6: Stack Problems, Queues, Searches & Circular Queue
+# 📅 DAY 6: Dynamic Programming
 
 ## 📚 DAY 6 - Topics
 
 <details open>
-<summary><h3>📚 Valid Parentheses - Stack Application</h3></summary>
+<summary><h3>💾 Memoization - Storing Computed Results & Reusability</h3></summary>
 
-> **Valid Parentheses:** A classic problem that uses Stack to validate if parentheses, brackets, and braces are properly matched and closed.
+> **Memoization:** An optimization technique where we store (cache) the results of expensive function calls and return the cached result when the same inputs occur again. It's a top-down approach to dynamic programming.
 
-### Problem Overview
+### 1️⃣ **Memoization Fundamentals**
 
-- Check if all opening brackets have corresponding closing brackets
-- Brackets must be closed in the correct order
-- Using Stack's LIFO property for efficient matching
+#### 🔄 Fibonacci Without Memoization (Exponential Time)
+
+```python
+def fibonacci(n):
+    # Base cases
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    
+    # Recursive formula: fib(n) = fib(n-1) + fib(n-2)
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+# Example
+print(fibonacci(5))  # 5 (0, 1, 1, 2, 3, 5)
+# Time Complexity: O(2^n) - exponential, very slow!
+# Recalculates same values many times
+```
+
+#### 💾 Fibonacci With Memoization (Linear Time)
+
+```python
+def fibonacciMemo(n, memo={}):
+    # Base cases
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    
+    # Check if result already computed (memoized)
+    if n in memo:
+        print(f"Returning cached result for {n}")
+        return memo[n]
+    
+    # Compute and store result in memo
+    memo[n] = fibonacciMemo(n - 1, memo) + fibonacciMemo(n - 2, memo)
+    return memo[n]
+
+# Example
+memo = {}
+print(fibonacciMemo(6, memo))  # 8
+# Time Complexity: O(n) - linear, much faster!
+# Each value computed only once
+```
+
+#### ⏱️ Performance Comparison
+
+```python
+import time
+
+def fibonacci(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+def fibonacciMemo(n, memo={}):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    if n in memo:
+        return memo[n]
+    memo[n] = fibonacciMemo(n - 1, memo) + fibonacciMemo(n - 2, memo)
+    return memo[n]
+
+n = 35
+
+# Without memoization
+start = time.time()
+result1 = fibonacci(n)
+end = time.time()
+print(f"Without Memoization: {result1}, Time: {end - start:.4f}s")  # ~5s
+
+# With memoization
+start = time.time()
+result2 = fibonacciMemo(n)
+end = time.time()
+print(f"With Memoization: {result2}, Time: {end - start:.4f}s")     # ~0.0001s
+```
+
+### 🤔 **Key Questions on Memoization**
+
+- What is the difference between memoization and caching?
+- Why is memoization more efficient than naive recursion?
+- When should we use memoization?
+- What is the space-time tradeoff in memoization?
+- Can memoization be applied to all problems?
 
 </details>
 
 ---
 
 <details open>
-<summary><h3>📦 Queue Data Structure - FIFO Principle</h3></summary>
+<summary><h3>📊 Tabulation - Bottom-up Approach & Space Optimization</h3></summary>
 
-> **Queue:** A linear data structure that follows the First-In-First-Out (FIFO) principle where elements are added at the rear and removed from the front.
+> **Tabulation:** A bottom-up dynamic programming approach where we start solving from the base cases and build up to the final solution using iteration. It avoids recursion overhead and is generally more efficient.
 
-### Queue Characteristics
-- **Enqueue:** Add element to rear
-- **Dequeue:** Remove element from front
-- **Peek:** View front element without removing
-- **isEmpty:** Check if queue is empty
+### 2️⃣ **Tabulation Technique**
 
-### Implementation Methods
-- List-based implementation
-- Collections module (deque import)
+#### 🔢 Fibonacci Using Tabulation (Iterative)
+
+```python
+def fibonacciTabulation(n):
+    # Create a table to store results
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    
+    # dp[i] will store fibonacci(i)
+    dp = [0] * (n + 1)
+    dp[0] = 0
+    dp[1] = 1
+    
+    # Fill table from bottom up
+    for i in range(2, n + 1):
+        dp[i] = dp[i - 1] + dp[i - 2]
+    
+    return dp[n]
+
+# Example
+print(fibonacciTabulation(10))  # 55
+# Time Complexity: O(n)
+# Space Complexity: O(n)
+```
+
+#### 🎯 Space-Optimized Tabulation
+
+```python
+def fibonacciOptimized(n):
+    # Only store last two values
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    
+    prev2 = 0
+    prev1 = 1
+    
+    for i in range(2, n + 1):
+        current = prev1 + prev2
+        prev2 = prev1
+        prev1 = current
+    
+    return prev1
+
+# Example
+result = fibonacciOptimized(10)  # 55
+print(f"Fibonacci(10) = {result}")
+# Time Complexity: O(n)
+# Space Complexity: O(1) - Only constant space!
+```
+
+#### 📈 Tabulation Example - Coin Change
+
+```python
+def minCoins(coins, target):
+    # dp[i] = minimum coins needed to make amount i
+    dp = [float('inf')] * (target + 1)
+    dp[0] = 0  # 0 coins needed for amount 0
+    
+    for amount in range(1, target + 1):
+        for coin in coins:
+            if coin <= amount:
+                dp[amount] = min(dp[amount], dp[amount - coin] + 1)
+    
+    return dp[target] if dp[target] != float('inf') else -1
+
+# Example
+coins = [1, 2, 5]
+target = 5
+print(f"Minimum coins for {target}: {minCoins(coins, target)}")  # 1 (coin: 5)
+
+coins = [2]
+target = 3
+print(f"Minimum coins for {target}: {minCoins(coins, target)}")  # -1 (impossible)
+```
+
+### 🤔 **Key Questions on Tabulation**
+
+- What is the difference between memoization and tabulation?
+- Why is tabulation sometimes better than memoization?
+- What is the space optimization technique in DP?
+- How do we identify which DP approach to use?
+- What are the advantages of iterative DP?
 
 </details>
 
 ---
 
 <details open>
-<summary><h3>↔️ Deque (Double-Ended Queue)</h3></summary>
+<summary><h3>🎯 Classic DP Problems - Theory & Approach</h3></summary>
 
-> **Deque:** A specialized queue that allows insertion and deletion from both ends (front and rear).
+> **Classic DP Problems:** Common problems where dynamic programming provides optimal solutions by breaking them into overlapping subproblems.
 
-### Deque Operations
-- **Append:** Add to right/rear
-- **AppendLeft:** Add to left/front
-- **Pop:** Remove from right/rear
-- **PopLeft:** Remove from left/front
+### 3️⃣ **DP Problem Patterns**
 
-### Implementation
-- Using `collections.deque` for optimized performance
-- List-based custom implementation
+#### 🪙 Coin Change Problem
 
-</details>
+```
+Problem: Find minimum number of coins needed to make a given amount
+Approach:
+1. State: dp[i] = minimum coins to make amount i
+2. Transition: For each coin, update: dp[i] = min(dp[i], dp[i-coin] + 1)
+3. Base Case: dp[0] = 0 (0 coins for amount 0)
+4. Time Complexity: O(amount * coins)
+5. Space Complexity: O(amount)
+```
 
----
+#### 📜 Longest Common Subsequence (LCS)
 
-<details open>
-<summary><h3>🔍 Linear Search Algorithm</h3></summary>
+```
+Problem: Find the longest subsequence common to two sequences
+Approach:
+1. State: dp[i][j] = length of LCS of first i chars and first j chars
+2. Transition:
+   - If s1[i-1] == s2[j-1]: dp[i][j] = dp[i-1][j-1] + 1
+   - Else: dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+3. Base Case: dp[0][j] = 0, dp[i][0] = 0
+4. Time Complexity: O(m*n) where m, n are string lengths
+5. Space Complexity: O(m*n)
 
-> **Linear Search:** A simple search algorithm that scans through elements sequentially until the target is found or end of array is reached.
+Example: LCS("ABCDGH", "AEDFHR") = "ADH" (length 3)
+```
 
-### Characteristics
-- **Time Complexity:** O(n) - Linear
-- **Space Complexity:** O(1) - Constant
-- **Best for:** Unsorted arrays, small datasets
-- **Simplicity:** Easy to implement and understand
+#### 🎒 0/1 Knapsack Problem
 
-### Linear Search Steps
-1. Start from first element
-2. Compare with target value
-3. Move to next element if not found
-4. Return index if found, -1 if not found
+```
+Problem: Select items with maximum value without exceeding weight limit
+Approach:
+1. State: dp[i][w] = max value using first i items with weight limit w
+2. Transition: For each item, either include it or exclude it
+   - dp[i][w] = max(dp[i-1][w], dp[i-1][w-weight[i]] + value[i])
+3. Base Case: dp[0][w] = 0 (no items, no value)
+4. Time Complexity: O(n*W) where n is items, W is capacity
+5. Space Complexity: O(n*W)
 
-</details>
+Example: Items [(value=60,weight=10), (value=100,weight=20)]
+         Capacity=30 → Maximum value = 160 (include both)
+```
 
----
+### 🤔 **Key Questions on Classic DP Problems**
 
-<details open>
-<summary><h3>⚡ Binary Search Algorithm</h3></summary>
-
-> **Binary Search:** An efficient search algorithm that divides the sorted array into halves and eliminates half of the remaining elements with each comparison.
-
-### Characteristics
-- **Time Complexity:** O(log n) - Logarithmic
-- **Space Complexity:** O(1) - Constant
-- **Requirement:** Array must be sorted
-- **Efficiency:** Much faster than Linear Search for large datasets
-
-### Binary Search Steps
-1. Set left and right pointers
-2. Find mid element
-3. Compare mid with target
-4. Eliminate left or right half based on comparison
-5. Repeat until found or boundaries cross
-
-</details>
-
----
-
-<details open>
-<summary><h3>🔄 Circular Queue</h3></summary>
-
-> **Circular Queue:** An advanced queue implementation where the rear element connects to the front element, forming a circle. This optimizes space utilization.
-
-### Circular Queue Advantages
-- **Efficient Space Usage:** Reuses empty spaces left by dequeued elements
-- **No Wasted Memory:** Unlike linear queue where front pointer moves
-- **Fixed Size:** Better for memory management
-
-### Circular Queue Operations
-- **Enqueue:** Add element to rear (with wraparound)
-- **Dequeue:** Remove element from front (with wraparound)
-- **Peek:** View front element
-- **isEmpty:** Check if queue is empty
-- **isFull:** Check if queue is full (in fixed-size implementation)
-
-### Key Concepts
-- **Front Pointer:** Points to first element
-- **Rear Pointer:** Points to last element
-- **Wraparound:** When pointers reach end, they wrap to beginning
-- **Condition Check:** (rear + 1) % size == front indicates full queue
+- What makes a problem suitable for DP?
+- How do we identify overlapping subproblems?
+- What is the difference between coin change and knapsack?
+- How does LCS relate to edit distance?
+- What is the recurrence relation in each problem?
 
 </details>
 
@@ -2410,334 +2346,900 @@ stack1.printStack()
 
 ## ✅ DAY 6 - Problems Covered
 
-### 📚 **Stack Application - Valid Parentheses**
+### 💾 **Memoization**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 1 | Valid Parentheses using Stack | 🟡 Medium | Stack LIFO Property | ✅ |
+| 1 | Fibonacci Without Memoization | 🟢 Easy | Exponential Recursion | ✅ |
+| 2 | Fibonacci With Memoization | 🟡 Medium | Caching Results | ✅ |
+| 3 | Performance Comparison (With vs Without) | 🟡 Medium | Optimization | ✅ |
+| 4 | Factorial with Memoization | 🟢 Easy | Simple Memoization | ✅ |
+| 5 | Climbing Stairs with Memoization | 🟡 Medium | Path Counting | ✅ |
 
-### 📦 **Queue Data Structure**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 2 | Basic Queue Implementation | 🟢 Easy | Queue Basics | ✅ |
-| 3 | Enqueue Operation | 🟢 Easy | Add to Rear | ✅ |
-| 4 | Dequeue Operation | 🟢 Easy | Remove from Front | ✅ |
-| 5 | Peek Operation | 🟢 Easy | View Front Element | ✅ |
-| 6 | isEmpty Check | 🟢 Easy | Queue Status | ✅ |
-| 7 | Complete Queue Implementation (List-based) | 🟡 Medium | Full Implementation | ✅ |
-
-### ↔️ **Deque (Double-Ended Queue)**
+### 📊 **Tabulation**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 8 | Deque with collections.deque | 🟢 Easy | Collection Module | ✅ |
-| 9 | Append & AppendLeft Operations | 🟡 Medium | Both Ends Insertion | ✅ |
-| 10 | Pop & PopLeft Operations | 🟡 Medium | Both Ends Deletion | ✅ |
-| 11 | Complete Deque Implementation (List-based) | 🟡 Medium | Custom Deque | ✅ |
+| 6 | Fibonacci Using Tabulation | 🟡 Medium | Bottom-up DP | ✅ |
+| 7 | Space-Optimized Fibonacci | 🟡 Medium | Space Optimization | ✅ |
+| 8 | Minimum Coins for Amount | 🟡 Medium | Coin Change | ✅ |
+| 9 | Climbing Stairs with Tabulation | 🟡 Medium | Iterative Approach | ✅ |
+| 10 | House Robber Problem | 🟡 Medium | DP Pattern | ✅ |
 
-### 🔍 **Linear Search Algorithm**
-
-| # | Problem | Difficulty | Concept | Status |
-|:-:|:--------|:----------:|:--------|:------:|
-| 12 | Linear Search Implementation | 🟢 Easy | Sequential Search | ✅ |
-| 13 | Linear Search with Target Index | 🟡 Medium | Index Finding | ✅ |
-| 14 | Linear Search Time Complexity Analysis | 🟡 Medium | Algorithm Analysis | ✅ |
-
-### ⚡ **Binary Search Algorithm**
+### 🎯 **Classic DP Problems**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 15 | Binary Search Implementation | 🟡 Medium | Divide & Conquer | ✅ |
-| 16 | Binary Search (Iterative) | 🟡 Medium | Loop-based Approach | ✅ |
-| 17 | Binary Search (Recursive) | 🟠 Hard | Recursion & Search | ✅ |
-| 18 | Binary Search Time Complexity Analysis | 🟡 Medium | O(log n) Complexity | ✅ |
+| 11 | Coin Change Problem | 🟠 Hard | Greedy DP | ✅ |
+| 12 | Longest Common Subsequence (LCS) | 🟠 Hard | String DP | ✅ |
+| 13 | 0/1 Knapsack Problem | 🟠 Hard | Selection DP | ✅ |
+| 14 | Edit Distance (Levenshtein) | 🟠 Hard | String Transformation | ✅ |
+| 15 | Maximum Subarray Sum (Kadane's) | 🟡 Medium | Subarray DP | ✅ |
+| 16 | Longest Increasing Subsequence | 🟡 Medium | Sequence DP | ✅ |
+| 17 | Rod Cutting Problem | 🟠 Hard | Optimization DP | ✅ |
 
-### 🔄 **Circular Queue**
+---
+
+# 📅 DAY 7: Searching & Sorting
+
+## 📚 DAY 7 - Topics
+
+<details open>
+<summary><h3>🔍 Linear Search - Sequential Traversal & O(n) Complexity</h3></summary>
+
+> **Linear Search:** A basic searching algorithm that sequentially checks every element in the array until the target element is found or the array ends. Simple but not efficient for large datasets.
+
+### 1️⃣ **Linear Search Implementation**
+
+#### 📍 Basic Linear Search
+
+```python
+def linearSearch(arr, target):
+    # Traverse through every element
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i  # Element found, return index
+    
+    return -1  # Element not found
+
+# Example
+arr = [10, 25, 30, 45, 50, 75, 80]
+target = 45
+
+result = linearSearch(arr, target)
+print(f"Element found at index: {result}")  # 3
+print(f"Element value: {arr[result]}")      # 45
+
+# Not found
+result = linearSearch(arr, 100)
+print(f"Search result: {result}")           # -1 (not found)
+```
+
+#### 🔢 Count Occurrences
+
+```python
+def countOccurrences(arr, target):
+    count = 0
+    
+    for i in range(len(arr)):
+        if arr[i] == target:
+            count += 1
+    
+    return count
+
+# Example
+arr = [1, 2, 3, 2, 4, 2, 5, 2]
+target = 2
+
+count = countOccurrences(arr, target)
+print(f"'{target}' appears {count} times")  # 4 times
+```
+
+#### 🎯 Find All Indices
+
+```python
+def findAllIndices(arr, target):
+    indices = []
+    
+    for i in range(len(arr)):
+        if arr[i] == target:
+            indices.append(i)
+    
+    return indices
+
+# Example
+arr = [10, 20, 10, 30, 10, 40]
+target = 10
+
+indices = findAllIndices(arr, target)
+print(f"Indices of {target}: {indices}")  # [0, 2, 4]
+```
+
+### 🤔 **Key Questions on Linear Search**
+
+- What is the time complexity of linear search?
+- When should we use linear search instead of binary search?
+- What is the best and worst case for linear search?
+- How does linear search work on unsorted arrays?
+- What are the practical applications of linear search?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>⚡ Binary Search - Divide & Conquer & O(log n) Complexity</h3></summary>
+
+> **Binary Search:** An efficient searching algorithm that works on sorted arrays by dividing the search space in half at each step. Time complexity O(log n) makes it much faster than linear search.
+
+### 2️⃣ **Binary Search Implementation**
+
+#### 🎯 Binary Search - Iterative Approach
+
+```python
+def binarySearch(arr, target):
+    left = 0
+    right = len(arr) - 1
+    
+    while left <= right:
+        mid = (left + right) // 2  # Find middle index
+        
+        if arr[mid] == target:
+            return mid  # Found
+        elif arr[mid] < target:
+            left = mid + 1  # Search right half
+        else:
+            right = mid - 1  # Search left half
+    
+    return -1  # Not found
+
+# Example
+arr = [10, 20, 30, 40, 50, 60, 70, 80, 90]
+target = 50
+
+result = binarySearch(arr, target)
+print(f"Element found at index: {result}")  # 4
+
+target = 25
+result = binarySearch(arr, target)
+print(f"Element not found: {result}")       # -1
+```
+
+#### 🔄 Binary Search - Recursive Approach
+
+```python
+def binarySearchRecursive(arr, target, left, right):
+    if left > right:
+        return -1  # Not found
+    
+    mid = (left + right) // 2
+    
+    if arr[mid] == target:
+        return mid
+    elif arr[mid] < target:
+        return binarySearchRecursive(arr, target, mid + 1, right)
+    else:
+        return binarySearchRecursive(arr, target, left, mid - 1)
+
+# Example
+arr = [2, 5, 8, 12, 16, 23, 38, 45, 56]
+target = 23
+
+result = binarySearchRecursive(arr, target, 0, len(arr) - 1)
+print(f"Element found at index: {result}")  # 5
+```
+
+#### 🔍 First & Last Occurrence
+
+```python
+def findFirst(arr, target):
+    # Find first occurrence of target
+    left, right = 0, len(arr) - 1
+    result = -1
+    
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            result = mid
+            right = mid - 1  # Continue searching left
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    
+    return result
+
+def findLast(arr, target):
+    # Find last occurrence of target
+    left, right = 0, len(arr) - 1
+    result = -1
+    
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            result = mid
+            left = mid + 1  # Continue searching right
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    
+    return result
+
+# Example
+arr = [1, 2, 2, 2, 3, 4, 4, 5]
+target = 2
+
+print(f"First occurrence: {findFirst(arr, target)}")  # 1
+print(f"Last occurrence: {findLast(arr, target)}")    # 3
+```
+
+### 🤔 **Key Questions on Binary Search**
+
+- Why must the array be sorted for binary search?
+- What is the time complexity and why is it O(log n)?
+- How many steps are needed for an array of 1 million elements?
+- What is the difference between iterative and recursive binary search?
+- When should we use binary search variants like first/last occurrence?
+
+</details>
+
+---
+
+<details open>
+<summary><h3>🔀 Sorting Algorithms - Bubble, Insertion, Quick, Merge, Counting Sort</h3></summary>
+
+> **Sorting:** The process of arranging elements in a specific order (ascending or descending). Different algorithms have different time and space complexities.
+
+### 3️⃣ **Sorting Techniques**
+
+#### 🫧 Bubble Sort (O(n²))
+
+```python
+def bubbleSort(arr):
+    n = len(arr)
+    
+    # Traverse through all array elements
+    for i in range(n):
+        swapped = False
+        
+        # Last i elements already in place
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                # Swap if element is greater than next
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swapped = True
+        
+        # If no swaps, array is sorted
+        if not swapped:
+            break
+    
+    return arr
+
+# Example
+arr = [64, 34, 25, 12, 22, 11, 90]
+result = bubbleSort(arr.copy())
+print(f"Sorted: {result}")  # [11, 12, 22, 25, 34, 64, 90]
+# Time Complexity: O(n²), Space Complexity: O(1)
+```
+
+#### 📍 Insertion Sort (O(n²))
+
+```python
+def insertionSort(arr):
+    # Start from second element
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        
+        # Move elements greater than key one position ahead
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+        
+        arr[j + 1] = key
+    
+    return arr
+
+# Example
+arr = [64, 34, 25, 12, 22, 11, 90]
+result = insertionSort(arr.copy())
+print(f"Sorted: {result}")  # [11, 12, 22, 25, 34, 64, 90]
+# Time Complexity: O(n²), Space Complexity: O(1)
+```
+
+#### ⚡ Quick Sort (O(n log n) average)
+
+```python
+def quickSort(arr, low=0, high=None):
+    if high is None:
+        high = len(arr) - 1
+    
+    if low < high:
+        # Partition and get pivot index
+        pivot_index = partition(arr, low, high)
+        
+        # Recursively sort left and right partitions
+        quickSort(arr, low, pivot_index - 1)
+        quickSort(arr, pivot_index + 1, high)
+    
+    return arr
+
+def partition(arr, low, high):
+    # Choose pivot (last element)
+    pivot = arr[high]
+    i = low - 1
+    
+    for j in range(low, high):
+        if arr[j] < pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+    
+    arr[i + 1], arr[high] = arr[high], arr[i + 1]
+    return i + 1
+
+# Example
+arr = [64, 34, 25, 12, 22, 11, 90]
+result = quickSort(arr.copy())
+print(f"Sorted: {result}")  # [11, 12, 22, 25, 34, 64, 90]
+# Time Complexity: O(n log n) average, Space Complexity: O(log n)
+```
+
+#### 🔀 Merge Sort (O(n log n))
+
+```python
+def mergeSort(arr):
+    if len(arr) <= 1:
+        return arr
+    
+    # Divide array into halves
+    mid = len(arr) // 2
+    left = mergeSort(arr[:mid])
+    right = mergeSort(arr[mid:])
+    
+    # Merge sorted halves
+    return merge(left, right)
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+
+# Example
+arr = [64, 34, 25, 12, 22, 11, 90]
+result = mergeSort(arr)
+print(f"Sorted: {result}")  # [11, 12, 22, 25, 34, 64, 90]
+# Time Complexity: O(n log n), Space Complexity: O(n)
+```
+
+#### 🔢 Counting Sort (O(n+k))
+
+```python
+def countingSort(arr, maxVal=None):
+    if not arr:
+        return arr
+    
+    if maxVal is None:
+        maxVal = max(arr)
+    
+    # Create count array
+    count = [0] * (maxVal + 1)
+    
+    # Count occurrences
+    for num in arr:
+        count[num] += 1
+    
+    # Rebuild sorted array
+    index = 0
+    for i in range(len(count)):
+        for _ in range(count[i]):
+            arr[index] = i
+            index += 1
+    
+    return arr
+
+# Example
+arr = [4, 2, 3, 1, 5, 2, 3, 4]
+result = countingSort(arr.copy())
+print(f"Sorted: {result}")  # [1, 2, 2, 3, 3, 4, 4, 5]
+# Time Complexity: O(n+k), Space Complexity: O(k)
+```
+
+### 🤔 **Key Questions on Sorting**
+
+- What is the difference between stable and unstable sorts?
+- When should we use each sorting algorithm?
+- What is time and space complexity for each algorithm?
+- Why is merge sort O(n log n) in all cases?
+- When is counting sort useful and what are its limitations?
+- How does quick sort's performance vary with pivot choice?
+
+</details>
+
+---
+
+## ✅ DAY 7 - Problems Covered
+
+### 🔍 **Linear Search**
 
 | # | Problem | Difficulty | Concept | Status |
 |:-:|:--------|:----------:|:--------|:------:|
-| 19 | Circular Queue Structure Design | 🟢 Easy | CQ Basics | ✅ |
-| 20 | Enqueue in Circular Queue | 🟡 Medium | Wraparound Logic | ✅ |
-| 21 | Dequeue in Circular Queue | 🟡 Medium | Front Pointer Movement | ✅ |
-| 22 | Peek in Circular Queue | 🟢 Easy | View Element | ✅ |
-| 23 | isEmpty & isFull Check | 🟡 Medium | Queue Status Conditions | ✅ |
-| 24 | Complete Circular Queue Implementation | 🟠 Hard | Full CQ | ✅ |
+| 1 | Basic Linear Search | 🟢 Easy | Sequential Search | ✅ |
+| 2 | Search in Unsorted Array | 🟢 Easy | Finding Element | ✅ |
+| 3 | Count Occurrences | 🟢 Easy | Counting Matches | ✅ |
+| 4 | Find All Indices | 🟢 Easy | Multiple Occurrences | ✅ |
+| 5 | Search Minimum/Maximum | 🟢 Easy | Extrema Finding | ✅ |
 
-### 🌳 **Binary Trees - Theory & Visual Representations**
+### ⚡ **Binary Search**
 
-## 📚 **Binary Tree Fundamentals**
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 6 | Binary Search - Iterative | 🟡 Medium | Basic Binary Search | ✅ |
+| 7 | Binary Search - Recursive | 🟡 Medium | Recursive Approach | ✅ |
+| 8 | First Occurrence | 🟡 Medium | Leftmost Position | ✅ |
+| 9 | Last Occurrence | 🟡 Medium | Rightmost Position | ✅ |
+| 10 | Search Insert Position | 🟡 Medium | Modified Binary Search | ✅ |
+| 11 | Peak Element Finding | 🟡 Medium | Binary Search Variant | ✅ |
 
-> **Binary Tree:** A hierarchical data structure where each node has at most two children (left and right).
+### 🔀 **Sorting Algorithms**
 
-#### **Key Concepts**
-- **Node:** A unit containing data and links to child nodes
-- **Root:** The topmost node of the tree
-- **Leaf:** A node with no children
-- **Parent & Child:** Hierarchical relationship between nodes
-- **Edge:** Connection between parent and child nodes
-- **Height:** Number of edges from node to deepest leaf
-- **Depth:** Number of edges from root to node
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 12 | Bubble Sort Implementation | 🟢 Easy | Basic Sorting | ✅ |
+| 13 | Insertion Sort Implementation | 🟢 Easy | Incremental Sorting | ✅ |
+| 14 | Selection Sort Implementation | 🟢 Easy | Selection-based | ✅ |
+| 15 | Quick Sort Implementation | 🟡 Medium | Divide & Conquer | ✅ |
+| 16 | Merge Sort Implementation | 🟡 Medium | Merge-based | ✅ |
+| 17 | Counting Sort Implementation | 🟡 Medium | Non-comparative Sort | ✅ |
+| 18 | Sort by Frequency | 🟡 Medium | Custom Sorting | ✅ |
+| 19 | Merge Two Sorted Arrays | 🟢 Easy | Merge Operation | ✅ |
+| 20 | Kth Largest Element | 🟠 Hard | Partial Sorting | ✅ |
 
-### **Types of Binary Trees**
+---
 
-#### **1️⃣ Binary Search Tree (BST)**
-A binary tree where:
-- Left child value < Parent value
-- Right child value > Parent value
-- Used for efficient searching, insertion, and deletion
+# 📅 DAY 8: Graphs & BFS/DFS
 
-```mermaid
-graph TD
-    A["50"]
-    B["30"]
-    C["70"]
-    D["20"]
-    E["40"]
-    F["60"]
-    G["80"]
-    
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
-    
-    style A fill:#FFB6C1
-    style B fill:#87CEEB
-    style C fill:#87CEEB
-    style D fill:#90EE90
-    style E fill:#90EE90
-    style F fill:#90EE90
-    style G fill:#90EE90
+## 📚 DAY 8 - Topics
+
+<details open>
+<summary><h3>📊 Graph Representation - Adjacency List & Matrix</h3></summary>
+
+> **Graph:** A non-linear data structure consisting of vertices (nodes) and edges (connections). Graphs can be directed or undirected, weighted or unweighted.
+
+### 1️⃣ **Graph Types & Representation**
+
+#### 🗺️ Graph Terminology
+
+```
+Vertex/Node: A fundamental unit in a graph
+Edge: A connection between two vertices
+Directed Graph: Edges have direction (A → B)
+Undirected Graph: Edges have no direction (A ↔ B)
+Weighted Graph: Edges have weights/costs
+Adjacent Vertices: Connected by an edge
+Degree: Number of edges connected to a vertex
+Path: Sequence of vertices connected by edges
+Cycle: Path where start and end vertices are same
 ```
 
----
+#### 🏗️ Adjacency Matrix Representation
 
-#### **2️⃣ Complete Binary Tree**
-All levels are completely filled except possibly the last level, which is filled from left to right.
+```python
+class Graph:
+    def __init__(self, vertices):
+        self.V = vertices
+        # Create 2D matrix initialized with 0s
+        self.matrix = [[0 for _ in range(vertices)] for _ in range(vertices)]
+    
+    def addEdge(self, u, v, weight=1):
+        # For undirected graph
+        self.matrix[u][v] = weight
+        self.matrix[v][u] = weight
+    
+    def removeEdge(self, u, v):
+        self.matrix[u][v] = 0
+        self.matrix[v][u] = 0
+    
+    def display(self):
+        for row in self.matrix:
+            print(row)
 
-```mermaid
-graph TD
-    A["1"]
-    B["2"]
-    C["3"]
-    D["4"]
-    E["5"]
-    F["6"]
-    
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    
-    style A fill:#FFD700
-    style B fill:#FFD700
-    style C fill:#FFD700
-    style D fill:#FFA500
-    style E fill:#FFA500
-    style F fill:#FFA500
+# Example
+g = Graph(4)
+g.addEdge(0, 1, 1)
+g.addEdge(0, 2, 1)
+g.addEdge(1, 2, 1)
+g.addEdge(2, 3, 1)
+
+print("Adjacency Matrix:")
+g.display()
+# Output:
+# [0, 1, 1, 0]
+# [1, 0, 1, 0]
+# [1, 1, 0, 1]
+# [0, 0, 1, 0]
 ```
 
----
+#### 📝 Adjacency List Representation
 
-#### **3️⃣ Perfect Binary Tree**
-All internal nodes have exactly two children, and all leaf nodes are at the same level.
+```python
+class Graph:
+    def __init__(self, vertices):
+        self.V = vertices
+        # Create adjacency list using dictionary
+        self.graph = {i: [] for i in range(vertices)}
+    
+    def addEdge(self, u, v, weight=1):
+        # For undirected graph
+        self.graph[u].append((v, weight))
+        self.graph[v].append((u, weight))
+    
+    def display(self):
+        for vertex in self.graph:
+            print(f"{vertex}: {self.graph[vertex]}")
 
-```mermaid
-graph TD
-    A["1"]
-    B["2"]
-    C["3"]
-    D["4"]
-    E["5"]
-    F["6"]
-    G["7"]
-    
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
-    
-    style A fill:#FF69B4
-    style B fill:#FF69B4
-    style C fill:#FF69B4
-    style D fill:#FFB6C1
-    style E fill:#FFB6C1
-    style F fill:#FFB6C1
-    style G fill:#FFB6C1
+# Example
+g = Graph(4)
+g.addEdge(0, 1, 1)
+g.addEdge(0, 2, 4)
+g.addEdge(1, 2, 2)
+g.addEdge(2, 3, 1)
+
+print("Adjacency List:")
+g.display()
+# Output:
+# 0: [(1, 1), (2, 4)]
+# 1: [(0, 1), (2, 2)]
+# 2: [(0, 4), (1, 2), (3, 1)]
+# 3: [(2, 1)]
 ```
 
----
+#### 🔗 Edge Class & Graph Class
 
-#### **4️⃣ Left Skewed Tree**
-Each node has only a left child.
+```python
+class Edge:
+    def __init__(self, u, v, weight=1):
+        self.u = u  # Source vertex
+        self.v = v  # Destination vertex
+        self.weight = weight
 
-```mermaid
-graph TD
-    A["1"]
-    B["2"]
-    C["3"]
-    D["4"]
+class GraphEdgeList:
+    def __init__(self, vertices):
+        self.V = vertices
+        self.edges = []
     
-    A --> B
-    B --> C
-    C --> D
+    def addEdge(self, u, v, weight=1):
+        self.edges.append(Edge(u, v, weight))
+        self.edges.append(Edge(v, u, weight))  # For undirected
     
-    style A fill:#87CEEB
-    style B fill:#87CEEB
-    style C fill:#87CEEB
-    style D fill:#87CEEB
+    def display(self):
+        for edge in self.edges:
+            print(f"{edge.u} - {edge.v}: {edge.weight}")
+
+# Example
+g = GraphEdgeList(4)
+g.addEdge(0, 1, 1)
+g.addEdge(0, 2, 4)
+g.addEdge(1, 2, 2)
+
+g.display()
 ```
 
+### 🤔 **Key Questions on Graph Representation**
+
+- What is the difference between adjacency matrix and adjacency list?
+- When should we use matrix representation vs list representation?
+- What is the space complexity of each representation?
+- How do we handle weighted vs unweighted graphs?
+- What is the time complexity of adding/removing edges?
+
+</details>
+
 ---
 
-#### **5️⃣ Right Skewed Tree**
-Each node has only a right child.
+<details open>
+<summary><h3>🌊 BFS - Breadth-First Traversal & Level-order Traversal</h3></summary>
 
-```mermaid
-graph TD
-    A["1"]
-    B["2"]
-    C["3"]
-    D["4"]
+> **BFS (Breadth-First Search):** A graph traversal algorithm that explores vertices in levels. Starts from a source vertex and explores all adjacent vertices before moving to the next level. Uses a queue data structure.
+
+### 2️⃣ **BFS Implementation**
+
+#### 🔄 BFS Algorithm
+
+```python
+from collections import deque
+
+class Graph:
+    def __init__(self, vertices):
+        self.V = vertices
+        self.graph = {i: [] for i in range(vertices)}
     
-    A --> B
-    B --> C
-    C --> D
+    def addEdge(self, u, v):
+        self.graph[u].append(v)
+        self.graph[v].append(u)  # For undirected graph
     
-    style A fill:#90EE90
-    style B fill:#90EE90
-    style C fill:#90EE90
-    style D fill:#90EE90
+    def bfs(self, start):
+        # Initialize visited set and queue
+        visited = set()
+        queue = deque()
+        
+        # Start from source vertex
+        queue.append(start)
+        visited.add(start)
+        
+        result = []
+        
+        while queue:
+            # Dequeue a vertex
+            vertex = queue.popleft()
+            result.append(vertex)
+            print(f"Visiting: {vertex}")
+            
+            # Explore all adjacent vertices
+            for neighbor in self.graph[vertex]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    queue.append(neighbor)
+        
+        return result
+
+# Example
+g = Graph(6)
+g.addEdge(0, 1)
+g.addEdge(0, 2)
+g.addEdge(1, 3)
+g.addEdge(2, 4)
+g.addEdge(3, 5)
+g.addEdge(4, 5)
+
+print("BFS traversal from vertex 0:")
+bfs_result = g.bfs(0)
+print(f"Traversal order: {bfs_result}")
+# Output: [0, 1, 2, 3, 4, 5]
 ```
 
----
+#### 📊 Level-order Traversal
 
-#### **6️⃣ AVL Tree (Self-Balancing)**
-A binary search tree where the height difference between left and right subtrees is at most 1.
+```python
+def bfsLevelOrder(graph, start):
+    visited = set()
+    queue = deque()
+    
+    queue.append(start)
+    visited.add(start)
+    levels = []
+    
+    while queue:
+        level_size = len(queue)
+        current_level = []
+        
+        # Process all vertices at current level
+        for _ in range(level_size):
+            vertex = queue.popleft()
+            current_level.append(vertex)
+            
+            for neighbor in graph[vertex]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    queue.append(neighbor)
+        
+        levels.append(current_level)
+    
+    return levels
 
-```mermaid
-graph TD
-    A["50"]
-    B["30"]
-    C["70"]
-    D["20"]
-    E["40"]
-    F["60"]
-    G["80"]
-    
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
-    
-    style A fill:#FF6B6B
-    style B fill:#4ECDC4
-    style C fill:#4ECDC4
-    style D fill:#FFE66D
-    style E fill:#FFE66D
-    style F fill:#FFE66D
-    style G fill:#FFE66D
+# Example
+g = Graph(6)
+g.addEdge(0, 1)
+g.addEdge(0, 2)
+g.addEdge(1, 3)
+g.addEdge(2, 4)
+g.addEdge(3, 5)
+
+levels = bfsLevelOrder(g.graph, 0)
+print("BFS Level Order:")
+for i, level in enumerate(levels):
+    print(f"Level {i}: {level}")
+# Output:
+# Level 0: [0]
+# Level 1: [1, 2]
+# Level 2: [3, 4]
+# Level 3: [5]
 ```
 
+### 🤔 **Key Questions on BFS**
+
+- What is the time and space complexity of BFS?
+- Why is BFS used for shortest path in unweighted graphs?
+- What data structure is essential for BFS?
+- How does BFS differ from DFS?
+- What are practical applications of BFS?
+
+</details>
+
 ---
 
-#### **7️⃣ Red-Black Tree**
-A self-balancing binary search tree with color properties (Red/Black nodes).
+<details open>
+<summary><h3>🌳 DFS - Depth-First Traversal & Recursive Exploration</h3></summary>
 
-```mermaid
-graph TD
-    A["50<br/><b style='color:white;'>Black</b>"]
-    B["30<br/><b style='color:white;'>Red</b>"]
-    C["70<br/><b style='color:white;'>Red</b>"]
-    D["20<br/><b style='color:white;'>Black</b>"]
-    E["40<br/><b style='color:white;'>Black</b>"]
-    F["60<br/><b style='color:white;'>Black</b>"]
-    G["80<br/><b style='color:white;'>Black</b>"]
+> **DFS (Depth-First Search):** A graph traversal algorithm that explores vertices deeply before backtracking. Goes as far as possible along each branch before backtracking. Can be implemented recursively or iteratively using a stack.
+
+### 3️⃣ **DFS Implementation**
+
+#### 🔄 DFS Recursive Approach
+
+```python
+class Graph:
+    def __init__(self, vertices):
+        self.V = vertices
+        self.graph = {i: [] for i in range(vertices)}
     
-    A --> B
-    A --> C
-    B --> D
-    B --> E
-    C --> F
-    C --> G
+    def addEdge(self, u, v):
+        self.graph[u].append(v)
+        self.graph[v].append(u)  # For undirected graph
     
-    style A fill:#000000,color:#fff
-    style B fill:#FF4444,color:#fff
-    style C fill:#FF4444,color:#fff
-    style D fill:#000000,color:#fff
-    style E fill:#000000,color:#fff
-    style F fill:#000000,color:#fff
-    style G fill:#000000,color:#fff
+    def dfs(self, vertex, visited=None):
+        if visited is None:
+            visited = set()
+        
+        # Mark current vertex as visited
+        visited.add(vertex)
+        print(f"Visiting: {vertex}")
+        result = [vertex]
+        
+        # Visit all adjacent vertices
+        for neighbor in self.graph[vertex]:
+            if neighbor not in visited:
+                result.extend(self.dfs(neighbor, visited))
+        
+        return result
+
+# Example
+g = Graph(6)
+g.addEdge(0, 1)
+g.addEdge(0, 2)
+g.addEdge(1, 3)
+g.addEdge(2, 4)
+g.addEdge(3, 5)
+g.addEdge(4, 5)
+
+print("DFS traversal from vertex 0:")
+dfs_result = g.dfs(0)
+print(f"Traversal order: {dfs_result}")
+# Output: [0, 1, 3, 5, 4, 2]
 ```
 
----
+#### 📊 DFS Iterative Approach (Using Stack)
 
-### **Tree Traversals**
-
-#### **1️⃣ Inorder Traversal (Left → Root → Right)**
-Used for BST to get elements in sorted order.
-
-**Example Tree:**
-```
-      50
-     /  \
-    30   70
-   / \
-  20  40
-```
-
-**Inorder Sequence:** `20 → 30 → 40 → 50 → 70`
-
----
-
-#### **2️⃣ Preorder Traversal (Root → Left → Right)**
-Used to copy the tree.
-
-**Preorder Sequence:** `50 → 30 → 20 → 40 → 70`
-
----
-
-#### **3️⃣ Postorder Traversal (Left → Right → Root)**
-Used to delete the tree.
-
-**Postorder Sequence:** `20 → 40 → 30 → 70 → 50`
-
----
-
-#### **4️⃣ Level-Order Traversal (BFS)**
-Visit nodes level by level from left to right.
-
-```mermaid
-graph TD
-    A["50<br/>Level 0"]
-    B["30<br/>Level 1"]
-    C["70<br/>Level 1"]
-    D["20<br/>Level 2"]
-    E["40<br/>Level 2"]
+```python
+def dfsIterative(graph, start):
+    visited = set()
+    stack = [start]
+    result = []
     
-    A --> B
-    A --> C
-    B --> D
-    B --> E
+    while stack:
+        # Pop from stack
+        vertex = stack.pop()
+        
+        if vertex not in visited:
+            visited.add(vertex)
+            print(f"Visiting: {vertex}")
+            result.append(vertex)
+            
+            # Push all adjacent unvisited vertices
+            # Reverse to maintain left-to-right order
+            for neighbor in reversed(graph[vertex]):
+                if neighbor not in visited:
+                    stack.append(neighbor)
     
-    style A fill:#FFD700
-    style B fill:#87CEEB
-    style C fill:#87CEEB
-    style D fill:#90EE90
-    style E fill:#90EE90
+    return result
+
+# Example
+g = Graph(6)
+g.addEdge(0, 1)
+g.addEdge(0, 2)
+g.addEdge(1, 3)
+g.addEdge(2, 4)
+
+print("DFS traversal (Iterative) from vertex 0:")
+dfs_result = dfsIterative(g.graph, 0)
+print(f"Traversal order: {dfs_result}")
 ```
 
-**Level-Order Sequence:** `50 → 30 → 70 → 20 → 40`
+#### 🔍 Detect Cycle Using DFS
+
+```python
+def hasCycleDFS(graph, vertices):
+    visited = [False] * vertices
+    
+    def dfs(vertex, parent):
+        visited[vertex] = True
+        
+        for neighbor in graph[vertex]:
+            if not visited[neighbor]:
+                if dfs(neighbor, vertex):
+                    return True
+            elif neighbor != parent:  # Found back edge
+                return True
+        
+        return False
+    
+    for i in range(vertices):
+        if not visited[i]:
+            if dfs(i, -1):
+                return True
+    
+    return False
+
+# Example
+g = Graph(3)
+g.addEdge(0, 1)
+g.addEdge(1, 2)
+g.addEdge(2, 0)  # Creates cycle
+
+has_cycle = hasCycleDFS(g.graph, 3)
+print(f"Graph has cycle: {has_cycle}")  # True
+```
+
+### 🤔 **Key Questions on DFS**
+
+- What is the time and space complexity of DFS?
+- When should we use recursive vs iterative DFS?
+- What are applications of DFS in real problems?
+- How do we detect cycles using DFS?
+- What is the difference between DFS tree and back edges?
+- How does DFS relate to topological sorting?
+
+</details>
 
 ---
+
+## ✅ DAY 8 - Problems Covered
+
+### 📊 **Graph Representation**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 1 | Adjacency Matrix Implementation | 🟢 Easy | Matrix Representation | ✅ |
+| 2 | Adjacency List Implementation | 🟡 Medium | List Representation | ✅ |
+| 3 | Edge List Representation | 🟢 Easy | Edge-based Storage | ✅ |
+| 4 | Add & Remove Edges | 🟢 Easy | Graph Operations | ✅ |
+| 5 | Weighted vs Unweighted Graphs | 🟡 Medium | Graph Types | ✅ |
+| 6 | Directed vs Undirected Graphs | 🟡 Medium | Graph Directionality | ✅ |
+
+### 🌊 **BFS - Breadth-First Search**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 7 | BFS Traversal Implementation | 🟡 Medium | Level-order Traversal | ✅ |
+| 8 | BFS Level Order Traversal | 🟡 Medium | Layered Exploration | ✅ |
+| 9 | Shortest Path in Unweighted Graph | 🟡 Medium | BFS Application | ✅ |
+| 10 | Connected Components using BFS | 🟡 Medium | Component Finding | ✅ |
+| 11 | Bipartite Graph Detection | 🟡 Medium | BFS Coloring | ✅ |
+| 12 | Word Ladder Problem | 🟠 Hard | BFS Path Finding | ✅ |
+
+### 🌳 **DFS - Depth-First Search**
+
+| # | Problem | Difficulty | Concept | Status |
+|:-:|:--------|:----------:|:--------|:------:|
+| 13 | DFS Traversal - Recursive | 🟡 Medium | Recursive Exploration | ✅ |
+| 14 | DFS Traversal - Iterative | 🟡 Medium | Stack-based Approach | ✅ |
+| 15 | Cycle Detection in Graph | 🟡 Medium | DFS Application | ✅ |
+| 16 | Connected Components using DFS | 🟡 Medium | Component Finding | ✅ |
+| 17 | Topological Sorting | 🟠 Hard | Directed Graph Ordering | ✅ |
+| 18 | Path Finding Between Two Vertices | 🟡 Medium | DFS Path | ✅ |
+| 19 | Count Islands Problem | 🟠 Hard | Grid-based DFS | ✅ |
+| 20 | Strongly Connected Components | 🟠 Hard | Advanced DFS | ✅ |
 
 ---
 
@@ -2773,7 +3275,4 @@ Code every day, solve problems regularly, and success will follow!
 ![NMIMS](https://img.shields.io/badge/NMIMS%20Engineering-Excellence-green?style=flat-square)
 
 </div>
-
 ---
-
-
